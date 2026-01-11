@@ -58,3 +58,40 @@ LINEヤフー株式会社
   <p>授業でも趣味でも</p>
 </div>
 
+---
+
+<!-- 時間: 1分 -->
+
+# 今日の流れ
+
+<div class="agenda-list">
+  <div class="agenda-item">
+    <div class="agenda-number">1</div>
+    <div class="agenda-content">
+      <strong>自己紹介</strong>
+      <span>どうやってエンジニアになったのか</span>
+    </div>
+  </div>
+  <div class="agenda-item">
+    <div class="agenda-number">2</div>
+    <div class="agenda-content">
+      <strong>ITの仕事</strong>
+      <span>エンジニアにも種類がある</span>
+    </div>
+  </div>
+  <div class="agenda-item">
+    <div class="agenda-number">3</div>
+    <div class="agenda-content">
+      <strong>技術を覗いてみよう</strong>
+      <span>LINEのメッセージ配送の裏側</span>
+    </div>
+  </div>
+  <div class="agenda-item">
+    <div class="agenda-number">5</div>
+    <div class="agenda-content">
+      <strong>AI時代のエンジニア</strong>
+      <span>これからどうなる？</span>
+    </div>
+  </div>
+</div>
+

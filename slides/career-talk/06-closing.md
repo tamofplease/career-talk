@@ -15,22 +15,26 @@
 
 # 振り返り
 
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>1. 自分の話</h3>
-    <p>エンジニアへの道は<br>一つじゃない</p>
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>自分の話</strong>: エンジニアへの道は一つじゃない</div>
   </div>
-  <div class="strategy-item">
-    <h3>2. ITの仕事</h3>
-    <p>チームで協力して<br>サービスを作る</p>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>ITの仕事</strong>: チームで協力してサービスを作る</div>
   </div>
-  <div class="strategy-item">
-    <h3>3. 技術の深さ</h3>
-    <p>「当たり前」の裏に<br>膨大な技術がある</p>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>技術の深さ</strong>: 「当たり前」の裏に膨大な技術</div>
   </div>
-  <div class="strategy-item">
-    <h3>4. AI時代</h3>
-    <p>道具として<br>使いこなす側に</p>
+  <div class="key-point">
+    <div class="key-point-number">4</div>
+    <div><strong>大学時代</strong>: 今から準備できることがある</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">5</div>
+    <div><strong>AI時代</strong>: 道具として使いこなす側に</div>
   </div>
 </div>
 
