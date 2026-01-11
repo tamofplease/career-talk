@@ -34,9 +34,46 @@
 
 ---
 
+<!-- 時間: 8分（ワーク込み） -->
+
+# グループワーク
+
+<div class="highlight-box">
+  <h2>「学食混雑アプリ」を作るなら？</h2>
+  <p>どんな役割（人）が必要だと思う？</p>
+</div>
+
+---
+
+# グループワーク
+
+**お題**: 学食の混雑状況がわかるアプリを作る
+
+**考えてみよう**
+- どんな作業が必要？
+- それをやる人はどんな役割？
+
+**ルール**
+- グループで話し合い（3分）
+- 思いついた役割を挙げてみよう
+
+---
+
 <!-- 時間: 3分 -->
 
-# エンジニアの種類
+# みんなの意見を聞いてみよう
+
+<div class="alert alert-info">
+  どんな役割が出た？
+</div>
+
+---
+
+<!-- 時間: 3分 -->
+
+# 実際にはこんな職種があります
+
+## エンジニアの種類
 
 <div class="strategy-grid">
   <div class="strategy-item">
@@ -91,55 +128,12 @@
 
 <!-- 時間: 2分 -->
 
-# 1つのプロダクトを作るには
-
-<div class="stat-highlight">
-  <div class="stat-value">10+</div>
-  <div class="stat-label">職種が協力して1つのサービスを作る</div>
-</div>
-
-<div class="flow-chart">
-  <div class="flow-item">PM</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">デザイナー</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">エンジニア</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">QA</div>
-</div>
-
----
-
-<!-- 時間: 8分（ワーク込み） -->
-
-# グループワーク
-
-<div class="highlight-box">
-  <h2>「学食混雑アプリ」を作るなら？</h2>
-  <p>どの職種が必要？その理由は？</p>
-</div>
-
----
-
-# グループワーク
-
-**選択肢**: フロントエンド / バックエンド / インフラ / デザイナー / PM
-
-**ルール**
-- グループで話し合い（3分）
-- 最低3職種を選ぶ
-- 「なぜ必要か」を1つ言える
-
----
-
-<!-- 時間: 2分 -->
-
-# ワークの解説
+# 学食アプリだと？
 
 <table class="comparison-matrix">
   <tr>
     <th>職種</th>
-    <th>役割</th>
+    <th>学食アプリでの役割</th>
   </tr>
   <tr>
     <td>PM</td>
@@ -162,6 +156,27 @@
     <td>サーバーを用意・監視</td>
   </tr>
 </table>
+
+---
+
+<!-- 時間: 1分 -->
+
+# 1つのプロダクトを作るには
+
+<div class="stat-highlight">
+  <div class="stat-value">10+</div>
+  <div class="stat-label">職種が協力して1つのサービスを作る</div>
+</div>
+
+<div class="flow-chart">
+  <div class="flow-item">PM</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-item">デザイナー</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-item">エンジニア</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-item">QA</div>
+</div>
 
 ---
 

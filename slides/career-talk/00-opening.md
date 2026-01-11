@@ -87,10 +87,24 @@ LINEヤフー株式会社
     </div>
   </div>
   <div class="agenda-item">
+    <div class="agenda-number">4</div>
+    <div class="agenda-content">
+      <strong>大学時代の過ごし方</strong>
+      <span>エンジニアになるまで</span>
+    </div>
+  </div>
+  <div class="agenda-item">
     <div class="agenda-number">5</div>
     <div class="agenda-content">
       <strong>AI時代のエンジニア</strong>
       <span>これからどうなる？</span>
+    </div>
+  </div>
+  <div class="agenda-item">
+    <div class="agenda-number">6</div>
+    <div class="agenda-content">
+      <strong>まとめ</strong>
+      <span>今日お話ししたこと</span>
     </div>
   </div>
 </div>
