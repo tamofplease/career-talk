@@ -86,34 +86,43 @@
 
 <!-- 時間: 3分 -->
 
-# 初めて作ったもの
+# 情報理工学科へ進学
 
-<!-- 【要編集】自分の最初の開発経験を記載 -->
+<div class="timeline">
+  <div class="timeline-item">
+    <strong>学部2年</strong>: 勉強にハマり、情報理工学科へ進学を決意
+  </div>
+  <div class="timeline-item">
+    <strong>競技プログラミング</strong>: アルゴリズムの面白さにハマる
+  </div>
+  <div class="timeline-item">
+    <strong>1年間</strong>: 授業＋独学で力をつける
+  </div>
+</div>
 
-<div class="highlight-box">
-  <h2>学食の混雑可視化アプリ</h2>
-  <p>大学2年の授業課題で作成</p>
+<div class="quote-box">
+  「機械系志望だったのに、気づいたら情報系に夢中だった」
 </div>
 
 ---
 
-# 初めて作ったもの
+# インターンで実務経験
 
 <div class="two-column">
   <div class="column">
 
-  ## きっかけ
-  - 昼休み、学食が混みすぎ
-  - 行ってから並ぶの無駄
-  - 「見える化」できないか？
+  ## 学部3年〜大学院
+  - インターン・業務委託を開始
+  - **合計10社**で実務経験
+  - 様々な業界・技術に触れる
 
   </div>
   <div class="column">
 
-  ## 結果
-  - 友達に使ってもらえた
-  - 「便利！」と言われた
-  - **作ったものが役立つ喜び**
+  ## 気づいたこと
+  - 授業と実務は全然違う
+  - 実際に使われるものを作る緊張感
+  - **やってみないとわからない**
 
   </div>
 </div>
@@ -127,23 +136,20 @@
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">1</div>
-    <!-- 【要編集】自分の理由 -->
-    <div>自分のアイデアを形にできる</div>
+    <div>インターンで実務の面白さを知った</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">2</div>
-    <!-- 【要編集】 -->
-    <div>作ったものが世界中で使われる可能性</div>
+    <div>10社の経験で「これを仕事にしたい」と確信</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">3</div>
-    <!-- 【要編集】 -->
     <div>学び続ければ成長し続けられる</div>
   </div>
 </div>
 
 <div class="alert alert-success">
-  <strong>ポイント:</strong> 「プログラミングが好き」より「ものづくりが好き」が大事
+  <strong>ポイント:</strong> 実際にやってみて「合う」と思えた
 </div>
 
 ---
@@ -157,8 +163,7 @@
 </div>
 
 <ul class="checklist">
-  <!-- 【要編集】自分のメッセージ -->
-  <li>高校時代、何も決まってなくても大丈夫</li>
-  <li>「なんか面白そう」で十分</li>
-  <li>やってみて気づくことが多い</li>
+  <li>高校時代、エンジニアなんて考えてなかった</li>
+  <li>大学で出会って、ハマって、進路が変わった</li>
+  <li>やってみないとわからない</li>
 </ul>
