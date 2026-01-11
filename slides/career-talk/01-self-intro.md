@@ -45,12 +45,10 @@
     <strong>高1</strong>: 高等部から入学。陸上部に所属。勉強は普通（テストは平均点くらい）
   </div>
   <div class="timeline-item">
-    <!-- 【要編集】 -->
-    <strong>高2</strong>: 進路に悩み始める。理系？文系？
+    <strong>高2</strong>: 中学から理系科目が得意。暗記が苦手で理系一択だった
   </div>
   <div class="timeline-item">
-    <!-- 【要編集】 -->
-    <strong>高3</strong>: ○○がきっかけで情報系を志望
+    <strong>高3</strong>: 父の仕事の影響で機械系に興味 → 基幹理工学部 学系2を選択
   </div>
 </div>
 
