@@ -42,8 +42,7 @@
 
 <div class="timeline">
   <div class="timeline-item">
-    <!-- 【要編集】高校時代のエピソード -->
-    <strong>高1</strong>: ○○部に所属。勉強は普通
+    <strong>高1</strong>: 高等部から入学。陸上部に所属。勉強は普通（テストは平均点くらい）
   </div>
   <div class="timeline-item">
     <!-- 【要編集】 -->
