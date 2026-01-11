@@ -1,0 +1,26 @@
+{
+  "name": "slide-generator",
+  "version": "1.0.0",
+  "description": "Claude Code powered slide generation with Marp",
+  "scripts": {
+    "merge": "bash scripts/build.sh",
+    "preview:career-talk": "bash scripts/build.sh slides/career-talk .tmp/career-talk.md && marp --theme ./theme.css -p .tmp/career-talk.md",
+    "build:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --html -o dist/ dist/career-talk.md",
+    "pdf:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pdf -o dist/ dist/career-talk.md",
+    "pptx:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pptx -o dist/ dist/career-talk.md",
+    "preview": "marp --theme ./theme.css -p",
+    "build": "marp --theme ./theme.css --html -o dist/",
+    "pdf": "marp --theme ./theme.css --pdf -o dist/",
+    "pptx": "marp --theme ./theme.css --pptx -o dist/",
+    "watch": "marp --theme ./theme.css -w -p"
+  },
+  "keywords": [
+    "marp",
+    "slides",
+    "presentation",
+    "claude-code"
+  ],
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.0"
+  }
+}
