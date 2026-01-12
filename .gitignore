@@ -1,6 +1,5 @@
 node_modules/
 dist/
-!dist/*.pdf
 .tmp/
 .DS_Store
 *.log
