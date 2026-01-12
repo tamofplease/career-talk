@@ -8,6 +8,7 @@ on:
       - 'slides/**'
       - 'theme.css'
       - 'templates/**'
+  workflow_dispatch:
 
 jobs:
   build-pdf:
@@ -44,7 +45,10 @@ jobs:
             if [ -f "${dir}_config.md" ]; then
               name=$(basename "$dir")
               echo "Building PDF for: $name"
-              pnpm pdf:${name} || echo "No script for $name, trying manual build..."
+              # Merge markdown files
+              bash scripts/build.sh "slides/${name}" ".tmp/${name}.md"
+              # Build PDF to root directory
+              npx marp --theme ./theme.css --pdf --allow-local-files -o "${name}.pdf" ".tmp/${name}.md"
             fi
           done
         env:
@@ -53,7 +57,7 @@ jobs:
       - name: Check for PDF changes
         id: check_changes
         run: |
-          git add dist/*.pdf 2>/dev/null || true
+          git add *.pdf 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
