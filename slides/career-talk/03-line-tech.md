@@ -1,5 +1,5 @@
 <!-- ============================================
-     3章：技術深掘り - LINE（20〜25分）
+     3章：技術深掘り - Web（20〜25分）
      ============================================ -->
 
 <!-- _class: dark -->
@@ -7,8 +7,8 @@
 
 # 3
 
-## 技術を覗いてみよう
-### LINEのメッセージ配送の裏側
+## Webの裏側を覗いてみよう
+### URLを叩いたら何が起きる？
 
 ---
 
@@ -17,7 +17,7 @@
 # 質問です
 
 <div class="highlight-box">
-  <h2>LINEで「送信」を押したあと<br>何が起きてると思う？</h2>
+  <h2>URLを入力してEnterを押したあと<br>何が起きてると思う？</h2>
 </div>
 
 ---
@@ -28,20 +28,20 @@
 
 <div class="strategy-grid">
   <div class="strategy-item">
-    <h3>どこに届く？</h3>
-    <p>直接相手のスマホ？<br>どこかを経由？</p>
+    <h3>どうやって見つける？</h3>
+    <p>「google.com」って<br>どこにあるの？</p>
   </div>
   <div class="strategy-item">
-    <h3>なぜ速い？</h3>
-    <p>1秒かからず届く<br>その仕組みは？</p>
+    <h3>どうやって届く？</h3>
+    <p>リクエストはどこを<br>通っていく？</p>
   </div>
   <div class="strategy-item">
-    <h3>なぜ届く？</h3>
-    <p>相手がオフラインでも<br>後で届くのはなぜ？</p>
+    <h3>なぜページが出る？</h3>
+    <p>サーバーから何が<br>返ってくる？</p>
   </div>
   <div class="strategy-item">
     <h3>なぜ安全？</h3>
-    <p>内容が漏れない<br>仕組みは？</p>
+    <p>パスワードが漏れない<br>仕組みは？</p>
   </div>
 </div>
 
@@ -52,7 +52,7 @@
 # グループワーク
 
 <div class="highlight-box">
-  <h2>LINEメッセージが届くまでの流れを<br>想像して図にしてみよう</h2>
+  <h2>URLを入力してからページが表示されるまでの<br>流れを想像して図にしてみよう</h2>
 </div>
 
 ---
@@ -87,98 +87,96 @@
 <div class="steps">
   <div class="step">
     <div class="step-number">1</div>
-    <div class="step-label">送信</div>
+    <div class="step-label">DNS</div>
   </div>
   <div class="step">
     <div class="step-number">2</div>
-    <div class="step-label">暗号化</div>
+    <div class="step-label">接続</div>
   </div>
   <div class="step">
     <div class="step-number">3</div>
-    <div class="step-label">サーバー</div>
+    <div class="step-label">リクエスト</div>
   </div>
   <div class="step">
     <div class="step-number">4</div>
-    <div class="step-label">通知</div>
+    <div class="step-label">処理</div>
   </div>
   <div class="step">
     <div class="step-number">5</div>
-    <div class="step-label">受信</div>
+    <div class="step-label">表示</div>
   </div>
 </div>
 
 <div class="alert alert-info">
-  あなたのスマホ → LINEサーバー → 相手のスマホ
+  ブラウザ → DNSサーバー → Webサーバー → ブラウザ
 </div>
 
 ---
 
 <!-- 時間: 2分 -->
 
-# すごいポイント①：規模
-
-<div class="metrics-grid">
-  <div class="metric-card">
-    <div class="value">2億+</div>
-    <div class="label">月間アクティブユーザー</div>
-  </div>
-  <div class="metric-card">
-    <div class="value">数十億</div>
-    <div class="label">1日のメッセージ数</div>
-  </div>
-  <div class="metric-card">
-    <div class="value">99.99%</div>
-    <div class="label">サービス稼働率</div>
-  </div>
-</div>
-
-<div class="quote-box">
-  これを24時間365日、止めずに動かし続けている
-</div>
-
----
-
-<!-- 時間: 2分 -->
-
-# すごいポイント②：速度
-
-<div class="before-after">
-  <div class="before">
-    <h3>普通に考えると</h3>
-    <ul>
-      <li>東京→大阪→サーバー→相手</li>
-      <li>何度も中継</li>
-      <li>時間かかりそう...</li>
-    </ul>
-  </div>
-  <div class="arrow-divider">→</div>
-  <div class="after">
-    <h3>実際は</h3>
-    <ul>
-      <li>世界中にサーバー配置</li>
-      <li>最短ルートを自動選択</li>
-      <li>1秒以内に届く</li>
-    </ul>
-  </div>
-</div>
-
----
-
-<!-- 時間: 2分 -->
-
-# すごいポイント③：セキュリティ
+# すごいポイント①：DNS
 
 <div class="feature-card">
-  <h3>End-to-End暗号化</h3>
-  <p>送信者と受信者だけが読める。LINEの社員でも読めない</p>
+  <h3>インターネットの電話帳</h3>
+  <p>「google.com」→「142.250.190.14」に変換</p>
 </div>
 
 <div class="flow-chart">
-  <div class="flow-item">あなた<br>🔐暗号化</div>
+  <div class="flow-item">google.com<br>って何？</div>
   <div class="flow-arrow">→</div>
-  <div class="flow-item">サーバー<br>🔒読めない</div>
+  <div class="flow-item">DNSサーバー<br>に聞く</div>
   <div class="flow-arrow">→</div>
-  <div class="flow-item">相手<br>🔓復号化</div>
+  <div class="flow-item">IPアドレス<br>を取得</div>
+</div>
+
+<div class="quote-box">
+  世界中のドメイン名を一瞬で解決している
+</div>
+
+---
+
+<!-- 時間: 2分 -->
+
+# すごいポイント②：HTTPリクエスト
+
+<div class="before-after">
+  <div class="before">
+    <h3>リクエスト</h3>
+    <ul>
+      <li>GET /index.html</li>
+      <li>どのページが欲しいか</li>
+      <li>ブラウザの情報</li>
+    </ul>
+  </div>
+  <div class="arrow-divider">⇄</div>
+  <div class="after">
+    <h3>レスポンス</h3>
+    <ul>
+      <li>200 OK（成功）</li>
+      <li>HTML/CSS/JS</li>
+      <li>画像データ</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<!-- 時間: 2分 -->
+
+# すごいポイント③：HTTPS
+
+<div class="feature-card">
+  <h3>通信の暗号化</h3>
+  <p>第三者が見ても解読できない。パスワードも安全に送れる</p>
+</div>
+
+<div class="flow-chart">
+  <div class="flow-item">ブラウザ<br>🔐暗号化</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-item">インターネット<br>🔒読めない</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-item">サーバー<br>🔓復号化</div>
 </div>
 
 ---
@@ -189,24 +187,24 @@
 
 <div class="icon-list">
   <li>
-    <div class="icon">🌏</div>
+    <div class="icon">💾</div>
     <div>
-      <strong>災害時の負荷対策</strong><br>
-      地震直後、みんなが一斉にLINEする→サーバー守る
+      <strong>キャッシュ</strong><br>
+      一度見たページを保存→次は速く表示
     </div>
   </li>
   <li>
-    <div class="icon">📱</div>
+    <div class="icon">🌍</div>
     <div>
-      <strong>オフライン対応</strong><br>
-      相手がネット切れてても、繋がった瞬間届く
+      <strong>CDN</strong><br>
+      世界中にコピーを配置→近いサーバーから取得
     </div>
   </li>
   <li>
-    <div class="icon">🔋</div>
+    <div class="icon">⚖️</div>
     <div>
-      <strong>バッテリー節約</strong><br>
-      通信回数を減らしてスマホの電池を守る
+      <strong>ロードバランサー</strong><br>
+      アクセスを複数サーバーに分散→負荷を軽減
     </div>
   </li>
 </div>
@@ -220,11 +218,11 @@
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">1</div>
-    <div>大量のユーザーでも動く設計</div>
+    <div>大量のアクセスでも動く設計</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">2</div>
-    <div>障害が起きても止まらない仕組み</div>
+    <div>どこからでも速く表示する仕組み</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">3</div>
@@ -232,7 +230,7 @@
   </div>
   <div class="key-point">
     <div class="key-point-number">4</div>
-    <div>想定外の事態への備え</div>
+    <div>障害が起きても止まらない仕組み</div>
   </div>
 </div>
 
@@ -243,11 +241,11 @@
 # 3章のまとめ
 
 <div class="highlight-box">
-  <h2>「送信ボタン」の裏には<br>膨大な技術と工夫がある</h2>
+  <h2>「Enter」を押すだけの裏には<br>膨大な技術と工夫がある</h2>
 </div>
 
 <ul class="checklist">
-  <li>普段使うアプリの裏側は超複雑</li>
+  <li>普段使うWebの裏側は超複雑</li>
   <li>でも、それを作る人たちがいる</li>
   <li>技術の積み重ねが「当たり前」を支えている</li>
 </ul>
