@@ -133,6 +133,31 @@
 
 ---
 
+# エンジニア就活の特徴
+
+<div class="highlight-box">
+  <h2>他の職種より差別化が明確</h2>
+</div>
+
+<div class="icon-list">
+  <li>
+    <div class="icon">💻</div>
+    <div>
+      <strong>コーディング試験</strong><br>
+      コードが書ける・書けないがはっきりわかる
+    </div>
+  </li>
+  <li>
+    <div class="icon">📁</div>
+    <div>
+      <strong>成果物が証拠になる</strong><br>
+      自分の作ったもの・携わった仕事が面接で語れる
+    </div>
+  </li>
+</div>
+
+---
+
 <!-- 時間: 1.5分 -->
 
 # 振り返って思うこと
