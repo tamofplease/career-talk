@@ -46,7 +46,6 @@
 # 最後に伝えたいこと
 
 <div class="quote-box" style="font-size: 1.4em;">
-  <!-- 【要編集】自分なりのメッセージに変更 -->
   「今わからなくても大丈夫。<br>
   　やってみたら意外とできる。<br>
   　興味を持ったら、まず触ってみて。」
@@ -68,75 +67,11 @@
 
 ---
 
-# よくある質問
-
-<div class="icon-list">
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>理系だけど情報やってなくても大丈夫？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      大丈夫！大学から始める人も多い
-    </div>
-  </li>
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>数学ってどれくらい使う？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      分野による。論理的思考は必須
-    </div>
-  </li>
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>英語は必要？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      読めると有利。ドキュメントは英語が多い
-    </div>
-  </li>
-</div>
-
----
-
-# よくある質問（続き）
-
-<div class="icon-list">
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>大学入る前にやっておいた方がいいことは？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      何でもいいから作ってみる経験
-    </div>
-  </li>
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>一番楽しい瞬間は？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      自分の作ったものが使われた時
-    </div>
-  </li>
-  <li>
-    <div class="icon">❓</div>
-    <div>
-      <strong>一番つらい瞬間は？</strong><br>
-      <!-- 【要編集】自分の回答 -->
-      本番で障害が起きた時
-    </div>
-  </li>
-</div>
-
----
-
 <!-- _class: title -->
 <!-- _paginate: false -->
 
 # ありがとうございました！
 
-<!-- 【要編集】連絡先を追加 -->
-
 ## 質問があればいつでも連絡ください
 
-@your_handle | your_email@example.com
+@tamofplease | mmiwatomoki@gmail.com
