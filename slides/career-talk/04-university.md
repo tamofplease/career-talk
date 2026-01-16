@@ -24,7 +24,7 @@
     <strong>2年</strong>: 情報系に進学 + 個人開発 + 競技プログラミング
   </div>
   <div class="timeline-item">
-    <strong>3年</strong>: 研究室配属 + インターン + 就活準備
+    <strong>3年</strong>: インターンで実務経験開始 + 大学院進学を検討
   </div>
   <div class="timeline-item">
     <strong>4年</strong>: 卒業研究 + 就活 + 入社準備
