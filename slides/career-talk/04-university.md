@@ -54,7 +54,6 @@
     <ul class="checklist">
       <li>C言語</li>
       <li>アルゴリズムとデータ構造</li>
-      <li>プログラミング言語</li>
       <li>ソフトウェア工学</li>
     </ul>
   </div>
