@@ -27,13 +27,13 @@
     <strong>学部3年</strong>: インターンで実務経験開始 + 大学院進学を検討
   </div>
   <div class="timeline-item">
-    <strong>学部4年</strong>: 卒業研究 + 大学院進学
+    <strong>学部4年</strong>: 卒業研究 + 大学院進学 + 業務委託で仕事開始
   </div>
   <div class="timeline-item">
-    <strong>修士1年</strong>: 研究 + インターン継続
+    <strong>修士1年</strong>: 研究 + 就活 + 業務委託継続
   </div>
   <div class="timeline-item">
-    <strong>修士2年</strong>: 就活 + 修士論文
+    <strong>修士2年</strong>: 修士論文 + 内定者バイト + 業務委託継続
   </div>
 </div>
 
