@@ -14,20 +14,26 @@
 
 <!-- 時間: 2分 -->
 
-# 大学4年間でやったこと
+# 大学6年間でやったこと
 
 <div class="timeline">
   <div class="timeline-item">
-    <strong>1年</strong>: C言語の授業だけ + 陸上サークルに少し参加
+    <strong>学部1年</strong>: C言語の授業だけ + 陸上サークルに少し参加
   </div>
   <div class="timeline-item">
-    <strong>2年</strong>: 情報系に進学 + 個人開発 + 競技プログラミング
+    <strong>学部2年</strong>: 情報系に進学 + 個人開発 + 競技プログラミング
   </div>
   <div class="timeline-item">
-    <strong>3年</strong>: インターンで実務経験開始 + 大学院進学を検討
+    <strong>学部3年</strong>: インターンで実務経験開始 + 大学院進学を検討
   </div>
   <div class="timeline-item">
-    <strong>4年</strong>: 卒業研究 + 就活 + 入社準備
+    <strong>学部4年</strong>: 卒業研究 + 大学院進学
+  </div>
+  <div class="timeline-item">
+    <strong>修士1年</strong>: 研究 + インターン継続
+  </div>
+  <div class="timeline-item">
+    <strong>修士2年</strong>: 就活 + 修士論文
   </div>
 </div>
 
