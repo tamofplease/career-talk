@@ -12,7 +12,7 @@
     "build": "marp --theme ./theme.css --html -o dist/",
     "pdf": "marp --theme ./theme.css --pdf -o dist/",
     "pptx": "marp --theme ./theme.css --pptx -o dist/",
-    "watch": "marp --theme ./theme.css -w -p"
+    "watch": "marp --theme ./theme.css -I slides/ -w -p"
   },
   "keywords": [
     "marp",

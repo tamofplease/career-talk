@@ -312,7 +312,8 @@ section.title h2 {
   margin: 24px 0;
 }
 
-.highlight-box h2 {
+.highlight-box h2,
+.highlight-box h3 {
   color: white;
   margin-top: 0;
 }
@@ -982,3 +983,7 @@ section.dark h2, section.dark h3 {
 .text-lg { font-size: 1.25em; }
 .text-xl { font-size: 1.5em; }
 .text-2xl { font-size: 2em; }
+
+h1.title-sm {
+  font-size: 2em;
+}

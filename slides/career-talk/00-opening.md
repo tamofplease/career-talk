@@ -10,6 +10,12 @@
 **三輪 智樹**
 LINEヤフー株式会社
 
+<!--
+- 自己紹介: 名前、所属を簡潔に
+- 今日はエンジニアの仕事や進路選びについて話す
+- リラックスした雰囲気で聞いてほしい
+-->
+
 ---
 
 <!-- 時間: 1分 -->
@@ -17,13 +23,19 @@ LINEヤフー株式会社
 # 今日のゴール
 
 <div class="highlight-box">
-  <h2>ITエンジニアって何する人なのか</h2>
-  <p>今日で"解像度"を上げて帰ってほしい</p>
+  <h2>学科・進路選びのヒントを持ち帰る</h2>
+  <p>OBのリアルな経験を共有する</p>
 </div>
 
-- エンジニアの仕事がイメージできる
-- 技術の面白さが体感できる
-- 進路選択のヒントが得られる
+- 大学でどう過ごすと良いかイメージできる
+- 進路選択の判断材料が増える
+- ITエンジニアという選択肢を知る
+
+<!--
+- 今日の目的を明確に伝える
+- 「正解」を教えるのではなく、ヒントを提供
+- OBとしてリアルな経験を共有する
+-->
 
 ---
 
@@ -31,14 +43,16 @@ LINEヤフー株式会社
 
 # まず教えてください
 
-<div class="alert alert-info">
-  <strong>今日は遠慮なく</strong>質問・リアクションしてください！
+<div class="highlight-box">
+  <h2>プログラミング経験ある人？</h2>
+  <p>授業でも趣味でも</p>
 </div>
 
-<div class="highlight-box">
-  <h2>理系で進路迷ってる人？</h2>
-  <p>手を挙げてみてください</p>
-</div>
+<!--
+- 手を挙げてもらう（アイスブレイク）
+- 経験者がいれば「すごい！」と反応
+- いなくても「全然OK、自分も高校時代は未経験」と伝える
+-->
 
 ---
 
@@ -49,14 +63,39 @@ LINEヤフー株式会社
   <p>なんとなくでOK</p>
 </div>
 
+<!--
+- 興味の有無を確認
+- 「興味なくても大丈夫」と安心させる
+-->
+
 ---
 
 # まず教えてください
 
 <div class="highlight-box">
-  <h2>プログラミング経験ある人？</h2>
-  <p>授業でも趣味でも</p>
+  <h2>行きたい学科がすでに決まっている人？</h2>
+  <p>手を挙げてみてください</p>
 </div>
+
+<!--
+- 進路が決まっている人の割合を把握
+- 「決まっていなくても全然OK」と伝える
+- 自分も高校時代は迷っていた
+-->
+
+---
+
+# 今日の話は
+
+<div class="highlight-box">
+  <h2>情報系に進む人以外にも聴いてほしい</h2>
+  <p>学科・進路選びに役立つヒントをお伝えします</p>
+</div>
+
+<!--
+- どの学科に進んでも、ITは関係してくる
+- 自分の経験は情報系以外の人にも参考になるはず
+-->
 
 ---
 
@@ -65,51 +104,31 @@ LINEヤフー株式会社
 # 今日の流れ
 
 <div class="two-column">
-<div class="agenda-list">
-  <div class="agenda-item">
-    <div class="agenda-number">1</div>
-    <div class="agenda-content">
-      <strong>自己紹介</strong>
-      <span>どうやってエンジニアになったのか</span>
-    </div>
-  </div>
-  <div class="agenda-item">
-    <div class="agenda-number">2</div>
-    <div class="agenda-content">
-      <strong>ITの仕事</strong>
-      <span>エンジニアにも種類がある</span>
-    </div>
-  </div>
-  <div class="agenda-item">
-    <div class="agenda-number">3</div>
-    <div class="agenda-content">
-      <strong>技術を覗いてみよう</strong>
-      <span>LINEのメッセージ配送の裏側</span>
-    </div>
-  </div>
+<div>
+
+1. **自己紹介**
+   どうやってエンジニアになったのか
+2. **ITの仕事**
+   エンジニアにも種類がある
+3. **技術を覗いてみよう**
+   LINEの裏側
+
 </div>
-<div class="agenda-list">
-  <div class="agenda-item">
-    <div class="agenda-number">4</div>
-    <div class="agenda-content">
-      <strong>大学時代の過ごし方</strong>
-      <span>エンジニアになるまで</span>
-    </div>
-  </div>
-  <div class="agenda-item">
-    <div class="agenda-number">5</div>
-    <div class="agenda-content">
-      <strong>AI時代のエンジニア</strong>
-      <span>これからどうなる？</span>
-    </div>
-  </div>
-  <div class="agenda-item">
-    <div class="agenda-number">6</div>
-    <div class="agenda-content">
-      <strong>まとめ</strong>
-      <span>今日お話ししたこと</span>
-    </div>
-  </div>
+<div>
+
+4. **大学時代の過ごし方**
+   エンジニアになるまで
+5. **AI時代のエンジニア**
+   これからどうなる？
+6. **まとめ**
+   今日お話ししたこと
+
 </div>
 </div>
+
+<!--
+- 全体の流れを簡単に説明
+- 途中でグループワークもある
+- 質問はいつでもOK、最後にQ&Aの時間もある
+-->
 
