@@ -14,21 +14,32 @@
 
 <!-- 時間: 2分 -->
 
-# 大学4年間でやったこと
+# 大学6年間でやったこと
 
 <div class="timeline">
   <div class="timeline-item">
-    <strong>1年</strong>: 基礎科目 + プログラミング入門
+    <strong>学部1年</strong>: C言語の授業だけ + 陸上サークルに少し参加
   </div>
   <div class="timeline-item">
-    <strong>2年</strong>: 専門科目 + 個人開発・サークル活動
+    <strong>学部2年</strong>: 情報系に進学 + 個人開発 + 競技プログラミング
   </div>
   <div class="timeline-item">
-    <strong>3年</strong>: 研究室配属 + インターン + 就活準備
+    <strong>学部3年</strong>: インターンで実務経験開始 + 大学院進学を検討
   </div>
   <div class="timeline-item">
-    <strong>4年</strong>: 卒業研究 + 就活 + 入社準備
+    <strong>学部4年</strong>: 卒業研究 + 大学院進学 + 業務委託で仕事開始
   </div>
+  <div class="timeline-item">
+    <strong>修士1年</strong>: 研究 + 就活 + 業務委託継続
+  </div>
+  <div class="timeline-item">
+    <strong>修士2年</strong>: 修士論文 + 内定者バイト + 業務委託継続
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <strong>おすすめ:</strong> 数学が得意な人は競技プログラミング、絶対ハマります！<br>
+  数学的な思考をコードに落とし込むプロセスが非常に勉強になった
 </div>
 
 ---
@@ -41,10 +52,9 @@
   <div>
     <h3>授業で学んだこと</h3>
     <ul class="checklist">
+      <li>C言語</li>
       <li>アルゴリズムとデータ構造</li>
-      <li>データベース・ネットワーク</li>
       <li>ソフトウェア工学</li>
-      <li>数学（線形代数・統計）</li>
     </ul>
   </div>
   <div>
@@ -58,28 +68,40 @@
   </div>
 </div>
 
+<div class="alert alert-info">
+  <strong>C言語</strong><br>
+  当時: 課題提出メインで教場試験もなく、とにかく分かる人に頼るしかなかった。授業の中で理解するのは無理だった…<br>
+  → できる人と仲良くなっておく or 少しでも予習しておくとよい。AIに頼るのもありだが、プログラミングの概念を一度理解すると4〜6年で生きてくる
+</div>
+
+<div class="alert alert-info">
+  <strong>アルゴリズムとデータ構造（学部2年）</strong><br>
+  当時: 数学好きなら絶対ハマる。頭の中のイメージを現実に落とし込むような作業。理論を理解するフェーズと実際に手を動かすフェーズがある<br>
+  → 競プロをやっておくと基礎ができた状態で授業に臨めるのでおすすめ
+</div>
+
+<div class="alert alert-info">
+  <strong>ソフトウェア工学</strong><br>
+  当時: 実際の開発現場に近い学びを得られる授業<br>
+  → 事前にインターンや実務経験を積んでから出席すると、より理解が深まるかも
+</div>
+
 ---
 
 <!-- 時間: 2分 -->
 
 # 授業以外でやったこと
 
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>個人開発</h3>
-    <p>自分が欲しいものを<br>実際に作ってみた</p>
+<div class="two-column">
+  <div>
+    <h3>インターン・業務委託</h3>
+    <!-- TODO: インターン・業務委託の具体的な経験を追記 -->
+    <p>実務経験を積んだ</p>
   </div>
-  <div class="strategy-item">
-    <h3>インターン</h3>
-    <p>実際の開発現場を<br>体験できた</p>
-  </div>
-  <div class="strategy-item">
-    <h3>勉強会・コミュニティ</h3>
-    <p>社外のエンジニアと<br>つながれた</p>
-  </div>
-  <div class="strategy-item">
-    <h3>アルバイト</h3>
-    <p>チームで働く経験<br>コミュニケーション力</p>
+  <div>
+    <h3>趣味（競プロ）</h3>
+    <p>AtCoderをやっていた</p>
+    <!-- TODO: 競プロの詳細（どのくらいやった、何が良かったか）を追記 -->
   </div>
 </div>
 
@@ -118,6 +140,31 @@
       <p>面接・技術テスト</p>
     </div>
   </div>
+</div>
+
+---
+
+# エンジニア就活の特徴
+
+<div class="highlight-box">
+  <h2>他の職種より差別化が明確</h2>
+</div>
+
+<div class="icon-list">
+  <li>
+    <div class="icon">💻</div>
+    <div>
+      <strong>コーディング試験</strong><br>
+      コードが書ける・書けないがはっきりわかる
+    </div>
+  </li>
+  <li>
+    <div class="icon">📁</div>
+    <div>
+      <strong>成果物が証拠になる</strong><br>
+      自分の作ったもの・携わった仕事が面接で語れる
+    </div>
+  </li>
 </div>
 
 ---
