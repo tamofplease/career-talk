@@ -64,6 +64,7 @@ LINEヤフー株式会社
 
 # 今日の流れ
 
+<div class="two-column">
 <div class="agenda-list">
   <div class="agenda-item">
     <div class="agenda-number">1</div>
@@ -86,6 +87,8 @@ LINEヤフー株式会社
       <span>LINEのメッセージ配送の裏側</span>
     </div>
   </div>
+</div>
+<div class="agenda-list">
   <div class="agenda-item">
     <div class="agenda-number">4</div>
     <div class="agenda-content">
@@ -107,5 +110,6 @@ LINEヤフー株式会社
       <span>今日お話ししたこと</span>
     </div>
   </div>
+</div>
 </div>
 

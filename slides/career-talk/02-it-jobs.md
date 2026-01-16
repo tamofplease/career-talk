@@ -1,9 +1,8 @@
 <!-- ============================================
-     2章：ITの仕事（15〜18分）
+     2章：ITの仕事（18〜22分）
      ============================================ -->
 
 <!-- _class: dark -->
-<!-- 時間: 0.5分 -->
 
 # 2
 
@@ -11,8 +10,6 @@
 ### エンジニアにも種類がある
 
 ---
-
-<!-- 時間: 2分 -->
 
 # IT業界の全体像
 
@@ -34,199 +31,205 @@
 
 ---
 
-<!-- 時間: 8分（ワーク込み） -->
-
 # グループワーク
 
 <div class="highlight-box">
-  <h2>「学食混雑アプリ」を作るなら？</h2>
-  <p>どんな役割（人）が必要だと思う？</p>
+  <h2>「LINE」を作るなら？</h2>
+  <p>どんな役割の人が必要だと思う？</p>
 </div>
 
 ---
 
 # グループワーク
 
-**お題**: 学食の混雑状況がわかるアプリを作る
-
-**考えてみよう**
-- どんな作業が必要？
-- それをやる人はどんな役割？
-
 **ルール**
 - グループで話し合い（3分）
-- 思いついた役割を挙げてみよう
-
----
-
-<!-- 時間: 3分 -->
-
-# みんなの意見を聞いてみよう
+- 最低3つの役割を考える
+- 「なぜ必要か」も考えてみよう
 
 <div class="alert alert-info">
-  どんな役割が出た？
+  思いついたものを自由に出してみよう！
 </div>
 
 ---
 
-<!-- 時間: 3分 -->
+# みんなが考えた役割
 
-# 実際にはこんな職種があります
+<div class="highlight-box">
+  <p>「何を作るか決める人」「デザインする人」「プログラムを書く人」...</p>
+  <p>そういう役割、<strong>実際に存在します</strong></p>
+</div>
 
-## エンジニアの種類
-
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>フロントエンド</h3>
-    <p>画面・見た目を作る<br>HTML/CSS/JavaScript</p>
-  </div>
-  <div class="strategy-item">
-    <h3>バックエンド</h3>
-    <p>裏側の処理を作る<br>Python/Java/Go</p>
-  </div>
-  <div class="strategy-item">
-    <h3>インフラ</h3>
-    <p>サーバー・ネットワーク<br>AWS/Docker/Linux</p>
-  </div>
-  <div class="strategy-item">
-    <h3>モバイル</h3>
-    <p>スマホアプリを作る<br>Swift/Kotlin/Flutter</p>
-  </div>
+<div class="alert alert-info">
+  それぞれの役割に名前がついている。順番に紹介していくね
 </div>
 
 ---
 
-<!-- 時間: 2分 -->
+# プロダクトマネージャー（PM）
 
-# エンジニア以外の職種
+<div class="highlight-box">
+  <h3>何を作るか決める人</h3>
+</div>
+
+- 「既読機能、つける？つけない？」
+- 「スタンプは有料にする？無料にする？」
+- 「次はどの機能を優先して作る？」
+
+<div class="alert alert-info">
+  チームの方向性を決める、いわば「船長」のような存在
+</div>
+
+---
+
+# デザイナー
+
+<div class="highlight-box">
+  <h3>どう見せるか決める人</h3>
+</div>
+
+- トーク画面のレイアウトは？
+- 吹き出しの色や形は？
+- スタンプの大きさは？
+
+<div class="alert alert-info">
+  「見た目」だけじゃなく「使いやすさ」も考える
+</div>
+
+---
+
+# フロントエンド / モバイルエンジニア
+
+<div class="highlight-box">
+  <h3>画面を作る人</h3>
+</div>
+
+- **モバイルエンジニア**: スマホアプリの画面を作る
+- **フロントエンドエンジニア**: Webブラウザの画面を作る
+
+<div class="alert alert-info">
+  みんながLINEを開いて見ている画面、この人たちが作ってる
+</div>
+
+---
+
+# バックエンドエンジニア
+
+<div class="highlight-box">
+  <h3>裏側の処理を作る人</h3>
+</div>
+
+- 送信ボタンを押したらメッセージが届く
+- 相手が読んだら「既読」がつく
+- 過去のトーク履歴を保存する
+
+<div class="alert alert-info">
+  目に見えないけど、一番重要な部分かもしれない
+</div>
+
+---
+
+# インフラエンジニア
+
+<div class="highlight-box">
+  <h3>土台を作る人</h3>
+</div>
+
+- LINEは日本だけで何千万人も使っている
+- 全員が同時にメッセージを送っても落ちない
+- データを安全に保存する
+
+<div class="alert alert-info">
+  サーバーというコンピュータを管理して、サービスの土台を支える
+</div>
+
+---
+
+# QAエンジニア
+
+<div class="highlight-box">
+  <h3>品質を守る人</h3>
+</div>
+
+- メッセージが届かない...
+- 既読がつかない...
+- アプリが突然落ちる...
+
+<div class="alert alert-info">
+  こういうバグを見つけて報告する。みんなが安心して使えるのはこの人たちのおかげ
+</div>
+
+---
+
+# 実は、これはほんの一部
 
 <div class="icon-list">
   <li>
-    <div class="icon">🎨</div>
+    <div class="icon">📊</div>
     <div>
-      <strong>デザイナー</strong><br>
-      UI/UXデザイン、見た目と使いやすさを設計
+      <strong>データエンジニア</strong><br>
+      PMが判断するためのデータを集めて分析する
     </div>
   </li>
   <li>
-    <div class="icon">📋</div>
+    <div class="icon">🤖</div>
     <div>
-      <strong>プロダクトマネージャー（PM）</strong><br>
-      何を作るか決める、優先順位を決める
+      <strong>機械学習エンジニア</strong><br>
+      「おすすめスタンプ」などAI機能を作る
     </div>
   </li>
   <li>
-    <div class="icon">🔍</div>
+    <div class="icon">🔧</div>
     <div>
-      <strong>QAエンジニア</strong><br>
-      品質保証、バグを見つける
+      <strong>プラットフォームエンジニア</strong><br>
+      他のエンジニアが使う道具や環境を作る
     </div>
   </li>
 </div>
 
 ---
 
-<!-- 時間: 2分 -->
-
-# 学食アプリだと？
-
-<table class="comparison-matrix">
-  <tr>
-    <th>職種</th>
-    <th>学食アプリでの役割</th>
-  </tr>
-  <tr>
-    <td>PM</td>
-    <td>「何を表示するか」を決める</td>
-  </tr>
-  <tr>
-    <td>デザイナー</td>
-    <td>見やすい画面を設計</td>
-  </tr>
-  <tr>
-    <td>フロントエンド</td>
-    <td>スマホ画面を実装</td>
-  </tr>
-  <tr>
-    <td>バックエンド</td>
-    <td>混雑データを集計・配信</td>
-  </tr>
-  <tr>
-    <td>インフラ</td>
-    <td>サーバーを用意・監視</td>
-  </tr>
-</table>
-
----
-
-<!-- 時間: 2分 -->
-
-# でも実は...これは氷山の一角
+# 作るものが変われば、必要な人も変わる
 
 <div class="two-column">
   <div>
-
-  **見えている部分**
-  - PM、デザイナー
-  - エンジニア
-  - QA
-
+    <h3>ゲームを作るなら？</h3>
+    <ul>
+      <li>3Dエンジニア</li>
+      <li>サウンドデザイナー</li>
+      <li>ゲームプランナー</li>
+    </ul>
   </div>
   <div>
-
-  **見えていない部分**
-  - AWSを作っている人
-  - 予算を確保する人
-  - 法務・契約を担当する人
-  - セキュリティ専門家
-  - データセンターを管理する人
-  - ...まだまだいる
-
+    <h3>自動運転を作るなら？</h3>
+    <ul>
+      <li>画像認識エンジニア</li>
+      <li>センサーエンジニア</li>
+      <li>シミュレーションエンジニア</li>
+    </ul>
   </div>
 </div>
 
-<div class="alert alert-warning">
-  1つのアプリの裏には、想像以上に多くの人が関わっている
+<div class="alert alert-info">
+  ITの仕事は本当にいろいろある
 </div>
 
 ---
-
-<!-- 時間: 1分 -->
-
-# 1つのプロダクトを作るには
-
-<div class="stat-highlight">
-  <div class="stat-value">10+</div>
-  <div class="stat-label">職種が協力して1つのサービスを作る</div>
-</div>
-
-<div class="flow-chart">
-  <div class="flow-item">PM</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">デザイナー</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">エンジニア</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">QA</div>
-</div>
-
----
-
-<!-- 時間: 1分 -->
 
 # 2章のまとめ
 
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">1</div>
-    <div>エンジニアにも色々な種類がある</div>
+    <div>1つのサービスを作るには、たくさんの役割が必要</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">2</div>
-    <div>エンジニア以外にも多くの職種が必要</div>
+    <div>今日紹介したのは代表的な例。実際はもっと多い</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">3</div>
-    <div>チームで協力して1つのサービスを作る</div>
+    <div>自分に合った役割が、きっとどこかにある</div>
   </div>
 </div>
+
