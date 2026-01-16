@@ -92,22 +92,16 @@
 
 # 授業以外でやったこと
 
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>個人開発</h3>
-    <p>自分が欲しいものを<br>実際に作ってみた</p>
+<div class="two-column">
+  <div>
+    <h3>インターン・業務委託</h3>
+    <!-- TODO: インターン・業務委託の具体的な経験を追記 -->
+    <p>実務経験を積んだ</p>
   </div>
-  <div class="strategy-item">
-    <h3>インターン</h3>
-    <p>実際の開発現場を<br>体験できた</p>
-  </div>
-  <div class="strategy-item">
-    <h3>勉強会・コミュニティ</h3>
-    <p>社外のエンジニアと<br>つながれた</p>
-  </div>
-  <div class="strategy-item">
-    <h3>アルバイト</h3>
-    <p>チームで働く経験<br>コミュニケーション力</p>
+  <div>
+    <h3>趣味（競プロ）</h3>
+    <p>AtCoderをやっていた</p>
+    <!-- TODO: 競プロの詳細（どのくらいやった、何が良かったか）を追記 -->
   </div>
 </div>
 
