@@ -18,7 +18,7 @@
 
 <div class="timeline">
   <div class="timeline-item">
-    <strong>1年</strong>: 基礎科目 + プログラミング入門
+    <strong>1年</strong>: C言語の授業だけ + 陸上サークルに少し参加
   </div>
   <div class="timeline-item">
     <strong>2年</strong>: 専門科目 + 個人開発・サークル活動
