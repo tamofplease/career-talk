@@ -32,7 +32,7 @@
   </div>
   <div class="key-point">
     <div class="key-point-number">3</div>
-    <div><strong>技術の深さ</strong>: 「当たり前」の裏に膨大な技術</div>
+    <div><strong>設計体験</strong>: 便利さと安全の両立が大事</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">4</div>
@@ -48,7 +48,7 @@
 - 今日の振り返り
 - 1: 自分の話 - エンジニアへの道は一つじゃない
 - 2: ITの仕事 - チームで協力してサービスを作る
-- 3: 技術の深さ - 「当たり前」の裏に膨大な技術
+- 3: 設計体験 - 便利さと安全の両立が大事
 - 4: 大学時代 - 今から準備できることがある
 - 5: AI時代 - 道具として使いこなす側に
 -->
