@@ -24,28 +24,14 @@
 
 <div class="timeline">
   <div class="timeline-item">
-    <strong>学部1年</strong>: C言語の授業だけ + 陸上サークルに少し参加
+    <strong>学部1-2年</strong>: C言語 → 情報系進学・競プロ開始
   </div>
   <div class="timeline-item">
-    <strong>学部2年</strong>: 情報系に進学 + 個人開発 + 競技プログラミング
+    <strong>学部3-4年</strong>: インターン → 卒研・業務委託開始
   </div>
   <div class="timeline-item">
-    <strong>学部3年</strong>: インターンで実務経験開始 + 大学院進学を検討
+    <strong>修士1-2年</strong>: 研究・就活・業務委託継続 → 内定
   </div>
-  <div class="timeline-item">
-    <strong>学部4年</strong>: 卒業研究 + 大学院進学 + 業務委託で仕事開始
-  </div>
-  <div class="timeline-item">
-    <strong>修士1年</strong>: 研究 + 就活 + 業務委託継続
-  </div>
-  <div class="timeline-item">
-    <strong>修士2年</strong>: 修士論文 + 内定者バイト + 業務委託継続
-  </div>
-</div>
-
-<div class="alert alert-success">
-  <strong>おすすめ:</strong> 数学が得意な人は競技プログラミング、絶対ハマります！<br>
-  数学的な思考をコードに落とし込むプロセスが非常に勉強になった
 </div>
 
 <!--
@@ -59,7 +45,7 @@
 
 ---
 
-<!-- 時間: 2分 -->
+<!-- 時間: 1分 -->
 
 # 学業・研究
 
@@ -76,63 +62,737 @@
     <h3>研究で得たもの</h3>
     <ul class="checklist">
       <li>一つのテーマを深掘りする力</li>
-      <li>論文を読む・書く経験</li>
+      <li>英語で論文を読む・書く力</li>
       <li>プレゼン・発表の機会</li>
-      <li>先生・先輩からのフィードバック</li>
     </ul>
   </div>
 </div>
 
-<div class="alert alert-info">
-  <strong>C言語</strong><br>
-  当時: 課題提出メインで教場試験もなく、とにかく分かる人に頼るしかなかった。授業の中で理解するのは無理だった…<br>
-  → できる人と仲良くなっておく or 少しでも予習しておくとよい。AIに頼るのもありだが、プログラミングの概念を一度理解すると4〜6年で生きてくる
-</div>
-
-<div class="alert alert-info">
-  <strong>アルゴリズムとデータ構造（学部2年）</strong><br>
-  当時: 数学好きなら絶対ハマる。頭の中のイメージを現実に落とし込むような作業。理論を理解するフェーズと実際に手を動かすフェーズがある<br>
-  → 競プロをやっておくと基礎ができた状態で授業に臨めるのでおすすめ
-</div>
-
-<div class="alert alert-info">
-  <strong>ソフトウェア工学</strong><br>
-  当時: 実際の開発現場に近い学びを得られる授業<br>
-  → 事前にインターンや実務経験を積んでから出席すると、より理解が深まるかも
-</div>
-
 <!--
-- 学業・研究について
-- C言語: 最初は苦労した、できる人と仲良くなるのが大事
-- アルゴリズム: 数学好きならハマる、競プロで先取りできる
-- ソフトウェア工学: インターン経験があると理解が深まる
-- 研究: 一つのテーマを深掘りする力がつく
+- 学業・研究の概要
+- 授業: C言語、アルゴリズム、ソフトウェア工学
+- 研究: 深掘り力、論文、プレゼン、フィードバック
 -->
 
 ---
 
-<!-- 時間: 2分 -->
+<!-- ============================================
+     C言語セクション
+     ============================================ -->
 
-# 授業以外でやったこと
+<!-- 時間: 1分 -->
+
+# C言語の授業
+
+<div class="highlight-box">
+  <h2>学部1年の必修科目</h2>
+  <p>課題提出メイン・教場試験なし</p>
+</div>
 
 <div class="two-column">
   <div>
-    <h3>インターン・業務委託</h3>
-    <!-- TODO: インターン・業務委託の具体的な経験を追記 -->
-    <p>実務経験を積んだ</p>
+    <h3>当時の状況</h3>
+    <ul>
+      <li>授業だけで理解するのは難しかった</li>
+      <li>分かる人に頼るしかなかった</li>
+    </ul>
   </div>
   <div>
-    <h3>趣味（競プロ）</h3>
-    <p>AtCoderをやっていた</p>
-    <!-- TODO: 競プロの詳細（どのくらいやった、何が良かったか）を追記 -->
+    <h3>アドバイス</h3>
+    <ul>
+      <li>できる人と仲良くなっておく</li>
+      <li>少しでも予習しておくと楽</li>
+      <li>AIに聞くのもあり（概念理解が大事）</li>
+    </ul>
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <strong>今はAIがあるので当時ほど大変じゃないかも...</strong><br>
+  それでも自分で考えてコードが書けると授業は無双できるはず！
+</div>
+
+<!--
+- C言語は学部1年の必修
+- 課題提出メイン、教場試験なし
+- 授業だけで理解するのは難しかった
+- アドバイス: できる人と仲良く、予習、AI活用
+- 補足: AIがあるので当時ほど大変じゃないかも
+- でも自分で書けると無双できる
+-->
+
+---
+
+<!-- ========== クイズ①：フォルダ構造 ========== -->
+
+# C言語クイズ①：フォルダ構造
+
+<div class="highlight-box">
+  <h2>Q. 次のコマンドで移動先はどこ？</h2>
+</div>
+
+```
+現在地: /home/user/documents
+コマンド: cd ..
+```
+
+<div class="steps">
+  <div class="step">
+    <div class="step-number">A</div>
+    <div class="step-content">/home/user/documents/..</div>
+  </div>
+  <div class="step">
+    <div class="step-number">B</div>
+    <div class="step-content">/home/user</div>
+  </div>
+  <div class="step">
+    <div class="step-number">C</div>
+    <div class="step-content">/home</div>
   </div>
 </div>
 
 <!--
-- 授業以外でやったこと
-- インターン・業務委託: 実務経験を積んだ
-- 競プロ: AtCoderで腕を磨いた
-- 授業だけでなく、自分から動くことが大事
+- フォルダ構造の問題
+- cd .. の意味を問う
+- シンキングタイム！
+-->
+
+---
+
+# クイズ①：回答
+
+<div class="highlight-box">
+  <h2>正解：B) /home/user</h2>
+</div>
+
+```
+現在地: /home/user/documents
+    ↓ cd ..
+移動先: /home/user
+```
+
+<!--
+- 正解はB
+- /home/userに移動する
+-->
+
+---
+
+# クイズ①：解説
+
+<div class="two-column">
+  <div>
+    <h3>「..」とは？</h3>
+    <ul>
+      <li><strong>親ディレクトリ</strong>を表す</li>
+      <li>1つ上の階層に戻る</li>
+      <li>「cd ..」で上に移動</li>
+    </ul>
+  </div>
+  <div>
+    <h3>フォルダ構造</h3>
+    <pre>
+/home
+  └── user       ← ここに移動
+        └── documents ← 現在地
+    </pre>
+  </div>
+</div>
+
+<div class="alert alert-info">
+  <strong>覚えておこう</strong>: 「.」は現在地、「..」は1つ上
+</div>
+
+<!--
+- .. は親ディレクトリ（1つ上）
+- . は現在のディレクトリ
+- ファイル操作の基本！
+-->
+
+---
+
+<!-- ========== クイズ②：if文 ========== -->
+
+# C言語クイズ②：if文【何が表示される？】
+
+```c
+int x = 5;
+if (x > 10)      { printf("A"); }
+else if (x > 3)  { printf("B"); }
+else             { printf("C"); }
+```
+
+<div class="steps">
+  <div class="step">
+    <div class="step-number">A</div>
+    <div class="step-content">A が表示</div>
+  </div>
+  <div class="step">
+    <div class="step-number">B</div>
+    <div class="step-content">B が表示</div>
+  </div>
+  <div class="step">
+    <div class="step-number">C</div>
+    <div class="step-content">C が表示</div>
+  </div>
+</div>
+
+<!--
+- if-else文の問題
+- シンキングタイム！
+-->
+
+---
+
+# クイズ②：回答
+
+<div class="highlight-box">
+  <h2>正解：B</h2>
+</div>
+
+```c
+int x = 5;
+if (x > 10) {       // 5 > 10 ? → ❌
+    printf("A");
+} else if (x > 3) { // 5 > 3 ? → ✅ ここ！
+    printf("B");
+} else {
+    printf("C");
+}
+```
+
+<!--
+- 正解はB
+- x=5なので、x>10は偽、x>3は真
+-->
+
+---
+
+# クイズ②：解説
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>上から順に評価</strong>: 最初に真になった条件だけ実行</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>else if</strong>: 前の条件が偽のときだけ評価される</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>else</strong>: どの条件にも当てはまらないとき</div>
+  </div>
+</div>
+
+<div class="alert alert-info">
+  <strong>ポイント</strong>: 条件分岐は「上から順番に」チェックされる
+</div>
+
+<!--
+- if-else文は上から順に評価
+- 最初に真になった条件だけ実行される
+- else ifは前の条件が偽のときだけ
+-->
+
+---
+
+<!-- ========== クイズ③：配列 ========== -->
+
+# C言語クイズ③：配列
+
+<div class="highlight-box">
+  <h2>Q. 配列の3番目の要素にアクセスするには？</h2>
+</div>
+
+```c
+int arr[5] = {10, 20, 30, 40, 50};
+```
+
+<div class="steps">
+  <div class="step">
+    <div class="step-number">A</div>
+    <div class="step-content">arr[3] → 結果: 40</div>
+  </div>
+  <div class="step">
+    <div class="step-number">B</div>
+    <div class="step-content">arr[2] → 結果: 30</div>
+  </div>
+  <div class="step">
+    <div class="step-number">C</div>
+    <div class="step-content">arr[1] → 結果: 20</div>
+  </div>
+</div>
+
+<!--
+- 配列インデックスの問題
+- シンキングタイム！
+-->
+
+---
+
+# クイズ③：回答
+
+<div class="highlight-box">
+  <h2>正解：B) arr[2] → 30</h2>
+</div>
+
+```c
+int arr[5] = {10, 20, 30, 40, 50};
+//            [0] [1] [2] [3] [4]
+//             ↑        ↑
+//           1番目    3番目
+```
+
+<!--
+- 正解はB
+- 配列は0から始まる
+- 3番目 = インデックス2
+-->
+
+---
+
+# クイズ③：解説
+
+<div class="comparison-matrix">
+  <table>
+    <tr>
+      <th>日常の数え方</th>
+      <th>プログラミング</th>
+    </tr>
+    <tr>
+      <td>1番目、2番目、3番目...</td>
+      <td>arr[0]、arr[1]、arr[2]...</td>
+    </tr>
+  </table>
+</div>
+
+<div class="alert alert-warning">
+  <strong>超重要！</strong> プログラミングでは「0から数える」<br>
+  これを忘れると「Off-by-oneエラー」というバグの原因に...
+</div>
+
+<!--
+- 配列は0から始まる！
+- 日常の数え方と違う
+- Off-by-oneエラーの原因になりやすい
+-->
+
+---
+
+<!-- ========== クイズ④：整数の割り算 ========== -->
+
+# C言語クイズ④：整数の割り算
+
+<div class="highlight-box">
+  <h2>Q. 次のコードでzの値は？</h2>
+</div>
+
+```c
+int x = 7;
+int y = 2;
+int z = x / y;
+```
+
+<div class="steps">
+  <div class="step">
+    <div class="step-number">A</div>
+    <div class="step-content">3.5</div>
+  </div>
+  <div class="step">
+    <div class="step-number">B</div>
+    <div class="step-content">3</div>
+  </div>
+  <div class="step">
+    <div class="step-number">C</div>
+    <div class="step-content">4</div>
+  </div>
+</div>
+
+<!--
+- 整数の割り算の問題
+- シンキングタイム！
+-->
+
+---
+
+# クイズ④：回答
+
+<div class="highlight-box">
+  <h2>正解：B) 3</h2>
+</div>
+
+```c
+int x = 7;
+int y = 2;
+int z = x / y;  // 7 / 2 = 3 （3.5ではない！）
+```
+
+<!--
+- 正解はB: 3
+- 整数同士の割り算は小数点以下切り捨て
+-->
+
+---
+
+# クイズ④：解説
+
+<div class="two-column">
+  <div>
+    <h3>C言語（型を宣言する）</h3>
+    <pre><code>int x = 7;    // 整数型
+int y = 2;    // 整数型
+int z = x / y; // → 3</code></pre>
+    <p>int同士 → 結果もint（切り捨て）</p>
+  </div>
+  <div>
+    <h3>Python（型を宣言しない）</h3>
+    <pre><code>x = 7
+y = 2
+z = x / y  # → 3.5</code></pre>
+    <p>自動で小数になる</p>
+  </div>
+</div>
+
+<div class="alert alert-warning">
+  <strong>型とは？</strong> データの種類のこと。int=整数、double=小数など<br>
+  C言語はPythonと違い「この変数は整数です」と<strong>宣言が必要</strong>
+</div>
+
+<!--
+- C言語は型を宣言する必要がある
+- Pythonは型を宣言しなくてもOK
+- 型 = データの種類（int, double, charなど）
+- C言語では型によって計算結果が変わる
+-->
+
+---
+
+<!-- ========== クイズ⑤：ループの回数 ========== -->
+
+# C言語クイズ⑤：ループの回数
+
+<div class="highlight-box">
+  <h2>Q. このループは何回実行される？</h2>
+</div>
+
+```c
+int count = 0;
+for (int i = 0; i <= 5; i++) {
+    count++;
+}
+printf("%d", count);
+```
+
+<div class="steps">
+  <div class="step">
+    <div class="step-number">A</div>
+    <div class="step-content">5回</div>
+  </div>
+  <div class="step">
+    <div class="step-number">B</div>
+    <div class="step-content">6回</div>
+  </div>
+  <div class="step">
+    <div class="step-number">C</div>
+    <div class="step-content">無限ループ</div>
+  </div>
+</div>
+
+<!--
+- forループの回数を問う問題
+- <= と < の違いに注目
+- シンキングタイム！
+-->
+
+---
+
+# クイズ⑤：回答
+
+<div class="highlight-box">
+  <h2>正解：B) 6回</h2>
+</div>
+
+```c
+for (int i = 0; i <= 5; i++) {
+    count++;  // i = 0, 1, 2, 3, 4, 5 の6回実行
+}
+```
+
+| ループ | i の値 | 条件 `i <= 5` |
+|:------:|:------:|:-------------:|
+| 1回目 | 0 | ✅ 真 |
+| 2回目 | 1 | ✅ 真 |
+| ... | ... | ... |
+| 6回目 | 5 | ✅ 真 |
+| 終了 | 6 | ❌ 偽 |
+
+<!--
+- 正解はB: 6回
+- i=0から始まり、i<=5なのでi=5まで実行される
+- 0,1,2,3,4,5 の6回
+-->
+
+---
+
+# クイズ⑤：解説
+
+<div class="comparison-matrix">
+  <table>
+    <tr>
+      <th>条件</th>
+      <th>ループ回数</th>
+      <th>i の値</th>
+    </tr>
+    <tr>
+      <td><code>i < 5</code></td>
+      <td>5回</td>
+      <td>0, 1, 2, 3, 4</td>
+    </tr>
+    <tr>
+      <td><code>i <= 5</code></td>
+      <td>6回</td>
+      <td>0, 1, 2, 3, 4, 5</td>
+    </tr>
+  </table>
+</div>
+
+<div class="alert alert-warning">
+  <strong>Off-by-one エラー</strong>: 1つずれるバグ<br>
+  「<」と「<=」の違いで回数が変わる！よくあるミス
+</div>
+
+<div class="alert alert-info">
+  <strong>覚え方</strong>: 0から始めて「< N」なら N回、「<= N」なら N+1回
+</div>
+
+<!--
+- < と <= の違いで1回変わる
+- Off-by-one エラーはプロでもやりがち
+- 0始まりで < N なら N回と覚える
+-->
+
+---
+
+<!-- 時間: 1分 -->
+
+# C言語のまとめ
+
+<div class="highlight-box">
+  <h2>一度理解するとスラスラできる</h2>
+</div>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>最初の壁が一番高い</strong>: 知っている人と知らない人で差が出やすい</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>英語に似ている</strong>: 文法を覚えれば読み書きできるようになる</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>一度身につけば一生モノ</strong>: プログラミングの土台になる</div>
+  </div>
+</div>
+
+<!--
+- C言語のまとめ
+- 一度理解するとスラスラできる
+- 最初の壁が高い、知っている人と知らない人で差
+- 英語のように文法を覚えれば読み書きできる
+- 基礎は後々活きてくる
+-->
+
+---
+
+<!-- ============================================
+     アルゴリズムとデータ構造セクション
+     ============================================ -->
+
+<!-- 時間: 1分 -->
+
+# アルゴリズムとデータ構造
+
+<div class="highlight-box">
+  <h2>学部2年の科目</h2>
+  <p>数学好きなら絶対ハマる</p>
+</div>
+
+<div class="two-column">
+  <div>
+    <h3>どんな授業？</h3>
+    <ul>
+      <li>効率的な問題の解き方を学ぶ</li>
+      <li>理論と実装の両方がある</li>
+      <li>頭の中のイメージを現実に落とし込む</li>
+    </ul>
+  </div>
+  <div>
+    <h3>扱う内容</h3>
+    <ul>
+      <li>ソート（並び替え）</li>
+      <li>探索（二分探索など）</li>
+      <li>グラフ・木構造</li>
+    </ul>
+  </div>
+</div>
+
+<!--
+- アルゴリズムとデータ構造は学部2年
+- 効率的な問題の解き方を学ぶ
+- 数学好きならハマる
+- 理論と実装の両方がある
+-->
+
+---
+
+<!-- 時間: 1分 -->
+<style scoped>
+h1 { font-size: 1.5em !important; }
+.highlight-box h2 { font-size: 1.2em !important; }
+</style>
+
+# 問題：二分探索
+
+<div class="highlight-box">
+  <h2>1〜100の中から数字を当てるゲーム</h2>
+</div>
+
+<div class="two-column">
+  <div>
+    <h3>ルール</h3>
+    <ul>
+      <li>1〜100の中から1つの数字を選ぶ</li>
+      <li>「もっと大きい/小さい」のヒントあり</li>
+    </ul>
+  </div>
+  <div>
+    <h3>目標</h3>
+    <ul>
+      <li>最小の回数で当てたい！</li>
+    </ul>
+  </div>
+</div>
+
+<div class="alert alert-warning">
+  <strong>Q. 最悪でも何回で必ず当てられる？</strong>
+</div>
+
+<!--
+- 二分探索の導入問題
+- 1〜100の数当てゲーム
+- ヒントあり：もっと大きい/小さい
+- 最小の回数で当てたい
+- シンキングタイム！
+-->
+
+---
+
+# 二分探索：回答
+
+<div class="highlight-box">
+  <h2>答え：最悪7回で必ず当たる！</h2>
+</div>
+
+<div class="alert alert-info">
+  <strong>戦略</strong>: 毎回「真ん中」を聞く → 候補が半分になる
+</div>
+
+<div class="alert alert-success">
+  1回目で<strong>50個</strong> → 2回目で<strong>25個</strong> → ... → 7回目で<strong>1個</strong>に！
+</div>
+
+<!--
+- 正解は7回
+- 真ん中を聞いて範囲を半分にしていく
+-->
+
+---
+
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.key-points { gap: 0.2em !important; }
+.key-point { font-size: 0.8em !important; padding: 0.2em 0.4em !important; }
+</style>
+
+# 二分探索：解説（具体例）
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div>「<strong>50</strong>」→「もっと大きい」→ 範囲: 51〜100（50個）</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div>「<strong>75</strong>」→「もっと小さい」→ 範囲: 51〜74（24個）</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div>「<strong>62</strong>」→「もっと大きい」→ 範囲: 63〜74（12個）</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">...</div>
+    <div>繰り返すと → <strong>最悪7回</strong>で1個に絞れる！</div>
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <strong>なぜ7回？</strong> 2^7 = 128 > 100 なので、7回あれば100個から必ず見つかる
+</div>
+
+<!--
+- 具体例で説明
+- 真ん中を聞いて範囲を半分にしていく
+- 2^7 = 128 > 100 なので7回で足りる
+- これが二分探索の考え方
+-->
+
+---
+
+<!-- 時間: 1分 -->
+<style scoped>
+h1 { font-size: 1.5em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1.0em !important; }
+.key-points { gap: 0.3em !important; }
+.key-point { font-size: 0.85em !important; padding: 0.3em !important; }
+</style>
+
+# アルゴリズムのまとめ
+
+<div class="highlight-box">
+  <h2>おすすめ：AtCoder</h2>
+  <p>競技プログラミングで腕を磨こう</p>
+</div>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>頭の体操になる</strong>: 論理的思考力が鍛えられる</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>イメージ→コードの力</strong>: 考えたことを実装に落とし込む</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>コードを読む力</strong>: 他人の解法から学べる</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">4</div>
+    <div><strong>授業の先取り</strong>: 基礎ができた状態で臨める</div>
+  </div>
+</div>
+
+<!--
+- アルゴリズムのまとめ
+- AtCoderおすすめ！
+- 頭の体操になる
+- イメージ→コードの力がつく
+- 他人の解法から学べる
+- 授業の先取りができる
 -->
 
 ---
@@ -212,67 +872,35 @@
 
 ---
 
-<!-- 時間: 1.5分 -->
-
-# 振り返って思うこと
-
-<div class="pros-cons">
-  <div class="pros">
-    <h3>やってよかった</h3>
-    <ul>
-      <li>とにかく何か作ってみた</li>
-      <li>インターンに参加した</li>
-      <li>興味のある分野を深掘りした</li>
-    </ul>
-  </div>
-  <div class="cons">
-    <h3>もっとやればよかった</h3>
-    <ul>
-      <li>英語の勉強</li>
-      <li>チーム開発の経験</li>
-      <li>異分野との交流</li>
-    </ul>
-  </div>
-</div>
-
-<!--
-- 振り返って思うこと
-- やってよかった: 何か作る、インターン、興味の深掘り
-- もっとやればよかった: 英語、チーム開発、異分野交流
-- 今思えばもっとやっておけば...という後悔も
--->
-
----
-
 <!-- 時間: 1分 -->
 
-# 高校生の今からできること
+# 大学入学までにできること
 
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">1</div>
-    <div><strong>興味を見つける</strong>: 色々触って「面白い！」を探す</div>
+    <div><strong>プログラミングに触れてみる</strong>: Python、C言語など何でもOK</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">2</div>
-    <div><strong>基礎を固める</strong>: 数学・英語・国語は全部使う</div>
+    <div><strong>PCに慣れておく</strong>: タイピング、ショートカットキーなど</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">3</div>
-    <div><strong>何か作る</strong>: 小さくてもいいから完成させる</div>
+    <div><strong>興味のある分野を探す</strong>: Web、AI、ゲーム...色々ある</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">4</div>
-    <div><strong>発信する</strong>: ブログ・SNS・GitHubなど</div>
+    <div><strong>英語に触れておく</strong>: ドキュメントは英語が多い</div>
   </div>
 </div>
 
 <!--
-- 高校生の今からできること
-- 興味を見つける: 色々触って「面白い！」を探す
-- 基礎を固める: 数学・英語・国語は全部使う
-- 何か作る: 小さくてもいいから完成させる
-- 発信する: ブログやGitHubで見える形に
+- 大学入学までにできること
+- プログラミングに触れてみる: 何でもいいから触る
+- PCに慣れておく: タイピング、ショートカット
+- 興味のある分野を探す: 色々ある
+- 英語に触れておく: 技術ドキュメントは英語が多い
 -->
 
 ---
@@ -289,7 +917,7 @@
 <ul class="checklist">
   <li>学業と課外活動のバランスが重要</li>
   <li>インターンは早めに経験しておくと有利</li>
-  <li>高校生の今からでも準備できることがある</li>
+  <li>入学前から少しずつ準備できることがある</li>
 </ul>
 
 <!--
@@ -298,5 +926,5 @@
 - 授業だけでなく自分から動くことが大事
 - 学業と課外活動のバランス
 - インターンは早めに経験しておくと有利
-- 高校生の今からでも準備できる
+- 入学前から少しずつ準備できる
 -->

@@ -1,247 +1,176 @@
 <!-- ============================================
-     5章：AI時代（12〜15分）
+     5章：AI時代のエンジニア
      ============================================ -->
 
 <!-- _class: dark -->
-<!-- 時間: 0.5分 -->
 
 # 5
 
 ## AI時代のエンジニア
-### これからどうなる？
+### これからどうなる？（2026年1月時点）
 
-<!--
-- 章の導入
-- AIが進化する中でエンジニアはどうなる？
-- 今一番聞かれる質問
--->
+<style scoped>
+.agenda-small { font-size: 0.75em; margin-top: 1.5rem; }
+.agenda-small h4 { color: #aaa; margin-bottom: 0.5rem; }
+.agenda-small ul { list-style: none; padding: 0; }
+.agenda-small li { margin: 0.3rem 0; }
+</style>
+
+<div class="agenda-small">
+  <h4>今日話すこと</h4>
+  <ul>
+    <li>いま何が起きている？</li>
+    <li>エンジニアの価値はどう変わった？</li>
+    <li>だから、なぜプログラミングを学ぶべき？</li>
+  </ul>
+</div>
 
 ---
 
-<!-- 時間: 2分 -->
+# まず現実：AIはコードを書ける
 
-# AIでコードが書ける時代
-
-<div class="stat-highlight">
-  <div class="stat-value">2025</div>
-  <div class="stat-label">AIがコードを書く時代が本格化</div>
-</div>
-
-<div class="alert alert-warning">
-  「エンジニアいらなくなるんじゃない？」
-</div>
-
-<!--
-- AIでコードが書ける時代が来た
-- 2025年、AIがコードを書く時代が本格化
-- 「エンジニアいらなくなる？」という声も
-- 実際どうなのか？
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# 実際に使ってみると...
-
-<div class="before-after">
-  <div class="before">
-    <h3>AIができること</h3>
-    <ul>
-      <li>コードの下書き</li>
-      <li>バグの発見</li>
-      <li>ドキュメント作成</li>
-      <li>定型作業の自動化</li>
-    </ul>
-  </div>
-  <div class="arrow-divider">→</div>
-  <div class="after">
-    <h3>人間がやること</h3>
-    <ul>
-      <li>何を作るか決める</li>
-      <li>ユーザーを理解する</li>
-      <li>チームをまとめる</li>
-      <li>責任を持つ</li>
-    </ul>
-  </div>
-</div>
-
-<!--
-- 実際に使ってみると...
-- AIができること: コードの下書き、バグ発見、ドキュメント作成
-- 人間がやること: 何を作るか決める、ユーザー理解、チームまとめ、責任
-- AIは道具、使う人が必要
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# AIで変わること・変わらないこと
-
-<div class="pros-cons">
-  <div class="pros">
-    <h3>変わること</h3>
-    <ul>
-      <li>単純作業が自動化</li>
-      <li>開発スピードが上がる</li>
-      <li>一人でできることが増える</li>
-    </ul>
-  </div>
-  <div class="cons">
-    <h3>変わらないこと</h3>
-    <ul>
-      <li>問題を見つける力</li>
-      <li>人の気持ちを理解する</li>
-      <li>最終判断と責任</li>
-    </ul>
-  </div>
-</div>
-
-<!--
-- 変わること: 単純作業の自動化、開発スピードアップ、一人でできること増加
-- 変わらないこと: 問題発見力、人の気持ちの理解、最終判断と責任
-- 本質的な部分は変わらない
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# 実はこれ、前にもあった
-
-<div class="timeline">
-  <div class="timeline-item">
-    <strong>1990年代</strong>: Excelで経理がいらなくなる？→ならなかった
-  </div>
-  <div class="timeline-item">
-    <strong>2000年代</strong>: ネットで営業がいらなくなる？→ならなかった
-  </div>
-  <div class="timeline-item">
-    <strong>2010年代</strong>: スマホで色々な仕事がなくなる？→変化した
-  </div>
-  <div class="timeline-item">
-    <strong>2020年代</strong>: AIでエンジニアがいらなくなる？→<strong>???</strong>
-  </div>
-</div>
-
-<!--
-- 実は「〇〇がいらなくなる」は過去にもあった
-- Excel→経理、ネット→営業、スマホ→色々
-- 結果: なくならず、仕事の形が変わった
-- AIも同じ、仕事は変化するけどなくならない
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# むしろ強くなれる
-
-<div class="highlight-box">
-  <h2>AIが優秀になるほど<br>「雑に頼む人」が弱くなる</h2>
-</div>
-
-<div class="feature-card">
-  <h3>AIに「ちゃんと仕事させられる人」が勝つ</h3>
-  <p>何をどう作りたいか明確に伝える力が重要に</p>
-</div>
-
-<!--
-- むしろ強くなれる
-- AIが優秀になるほど「雑に頼む人」が弱くなる
-- AIに「ちゃんと仕事させられる人」が勝つ
-- 何をどう作りたいか明確に伝える力が重要
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# これから求められる力
-
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>問題発見力</h3>
-    <p>「何が問題か」を見つける</p>
-  </div>
-  <div class="strategy-item">
-    <h3>言語化力</h3>
-    <p>考えを正確に伝える</p>
-  </div>
-  <div class="strategy-item">
-    <h3>判断力</h3>
-    <p>AIの出力を評価する</p>
-  </div>
-  <div class="strategy-item">
-    <h3>倫理観</h3>
-    <p>技術の使い方を考える</p>
-  </div>
-</div>
-
-<!--
-- これから求められる力
-- 問題発見力: 何が問題かを見つける
-- 言語化力: 考えを正確に伝える
-- 判断力: AIの出力を評価する
-- 倫理観: 技術の使い方を考える
--->
-
----
-
-<!-- 時間: 2分 -->
-
-# 高校生の今できること
+<style scoped>
+.key-points { font-size: 0.85em; }
+.example-note { font-size: 0.7em; color: #666; margin-top: 1rem; }
+</style>
 
 <div class="key-points">
   <div class="key-point">
-    <div class="key-point-number">1</div>
-    <div><strong>論理的に考える練習</strong>（数学・情報）</div>
+    <div class="key-point-number">💡</div>
+    <div>AIは<strong>「それっぽいコード」</strong>を高速に作れる</div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">2</div>
-    <div><strong>言語化する練習</strong>（国語・英語）</div>
+    <div class="key-point-number">📦</div>
+    <div><strong>画面の部品 / 定番の処理 / テスト</strong> など</div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">3</div>
-    <div><strong>何か作ってみる</strong>（プログラミング・ものづくり）</div>
+    <div class="key-point-number">🏢</div>
+    <div>現場でも<strong>普通に使われ始めている</strong></div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">4</div>
-    <div><strong>AIを触ってみる</strong>（ChatGPT等）</div>
+    <div class="key-point-number">🤔</div>
+    <div>だから「勉強いらない？」と思うのは<strong>自然</strong></div>
   </div>
 </div>
 
-<!--
-- 高校生の今できること
-- 論理的に考える練習（数学・情報）
-- 言語化する練習（国語・英語）
-- 何か作ってみる（プログラミング・ものづくり）
-- AIを触ってみる（ChatGPT等）
--->
+<p class="example-note">例：フォーム、ログイン周り、データの整形…</p>
 
 ---
 
-<!-- 時間: 1分 -->
+# でも重要：AIは"責任"を取れない
 
-# 5章のまとめ
-
-<div class="highlight-box">
-  <h2>AIは敵じゃない、道具</h2>
-  <p>使いこなす側になろう</p>
+<div class="alert alert-warning">
+  AIが出したコードは…
 </div>
 
-<ul class="checklist">
-  <li>AIで仕事がなくなるのではなく変わる</li>
-  <li>「考える力」「伝える力」がより重要に</li>
-  <li>今の勉強は全部つながっている</li>
-</ul>
+<div class="strategy-grid">
+  <div class="strategy-item">
+    <h3>正しい？</h3>
+    <p>仕様に合ってる？</p>
+  </div>
+  <div class="strategy-item">
+    <h3>安全？</h3>
+    <p>危ない穴はない？</p>
+  </div>
+  <div class="strategy-item">
+    <h3>続けられる？</h3>
+    <p>あとから直しやすい？</p>
+  </div>
+</div>
 
-<!--
-- 5章のまとめ
-- AIは敵じゃない、道具
-- 使いこなす側になろう
-- 仕事がなくなるのではなく変わる
-- 「考える力」「伝える力」がより重要に
-- 今の勉強は全部つながっている
--->
+<div class="highlight-box">
+  <h3>✅ 現場で起きていること</h3>
+  <p>「書く」より<strong>確認・判断</strong>の比重が増えた</p>
+</div>
+
+---
+
+# 価値が下がった能力
+
+<p style="text-align: center; color: #666; margin-bottom: 1rem;">（以前ほど重要ではない）</p>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">📝</div>
+    <div><strong>定型作業としての実装</strong><br><small>CRUD、テンプレUI、ボイラープレート</small></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🔍</div>
+    <div><strong>ググってコピペでつなぐ</strong></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">📚</div>
+    <div><strong>構文・APIを暗記する</strong></div>
+  </div>
+</div>
+
+<div class="alert alert-info">
+  ✅ まとめ：「作業量」や「実装スピード」だけでは差が出にくい
+</div>
+
+---
+
+# 変わらず必要な能力
+
+<p style="text-align: center; color: #666; margin-bottom: 1rem;">（AIがいても消えない）</p>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">🎯</div>
+    <div><strong>問題設定</strong>：何を作るべき？</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🏗️</div>
+    <div><strong>設計</strong>：どう分ける？どう続ける？</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🐛</div>
+    <div><strong>デバッグ</strong>：なぜ壊れた？</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">✅</div>
+    <div><strong>レビュー</strong>：正しい？安全？</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">💬</div>
+    <div><strong>説明</strong>：なぜその判断？</div>
+  </div>
+</div>
+
+<div class="alert alert-success">
+  ✅ まとめ：エンジニアの仕事＝<strong>判断の連続</strong>
+</div>
+
+---
+
+# 今まで以上に必要な能力
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">🤖</div>
+    <div><strong>AIを使いこなす力</strong><br><small>指示 → 検証 → 修正</small></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🧪</div>
+    <div><strong>品質保証</strong><br><small>テスト、監視、再現性</small></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🔐</div>
+    <div><strong>セキュリティ意識</strong></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">🌐</div>
+    <div><strong>システム全体を見る視点</strong></div>
+  </div>
+</div>
+
+---
+
+<!-- _class: dark -->
+
+# 締めの一言
+
+<div class="highlight-box" style="text-align: center; font-size: 1.2em;">
+  <p>「AIがあるから勉強しなくていい」ではなく<br><br>
+  <strong style="font-size: 1.3em;">「AIがあるからこそ、分かる人が強い」</strong></p>
+</div>
