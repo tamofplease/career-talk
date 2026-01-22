@@ -5,7 +5,7 @@
 <!-- _class: title -->
 <!-- _paginate: false -->
 
-# ITエンジニアという仕事
+# OBが語る、ITエンジニアのリアル
 
 **三輪 智樹**
 LINEヤフー株式会社

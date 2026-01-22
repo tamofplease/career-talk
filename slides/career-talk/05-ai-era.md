@@ -57,6 +57,18 @@
 
 ---
 
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.alert { padding: 0.3em 0.6em !important; margin-bottom: 0.5em !important; }
+.strategy-grid { gap: 0.4em !important; }
+.strategy-item { padding: 0.4em !important; }
+.strategy-item h3 { font-size: 0.95em !important; margin-bottom: 0.1em !important; }
+.strategy-item p { font-size: 0.8em !important; }
+.highlight-box { margin-top: 0.5em !important; padding: 0.4em !important; }
+.highlight-box h3 { font-size: 0.95em !important; }
+.highlight-box p { font-size: 0.85em !important; }
+</style>
+
 # でも重要：AIは"責任"を取れない
 
 <div class="alert alert-warning">
@@ -85,14 +97,22 @@
 
 ---
 
+<style scoped>
+h1 { font-size: 1.3em !important; }
+p { margin-bottom: 0.5rem !important; }
+.key-points { gap: 0.3em !important; }
+.key-point { padding: 0.3em 0.5em !important; font-size: 0.85em; }
+.alert { padding: 0.4em 0.8em !important; margin-top: 0.5em !important; font-size: 0.85em; }
+</style>
+
 # 価値が下がった能力
 
-<p style="text-align: center; color: #666; margin-bottom: 1rem;">（以前ほど重要ではない）</p>
+<p style="text-align: center; color: #666; margin-bottom: 0.5rem; font-size: 0.85em;">（以前ほど重要ではない）</p>
 
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">📝</div>
-    <div><strong>定型作業としての実装</strong><br><small>CRUD、テンプレUI、ボイラープレート</small></div>
+    <div><strong>定型作業としての実装</strong><br><small>よくある基本機能や定型的な画面・コード</small></div>
   </div>
   <div class="key-point">
     <div class="key-point-number">🔍</div>
@@ -110,9 +130,17 @@
 
 ---
 
+<style scoped>
+h1 { font-size: 1.3em !important; }
+p { margin-bottom: 0.3rem !important; }
+.key-points { gap: 0.2em !important; }
+.key-point { padding: 0.25em 0.5em !important; font-size: 0.8em; }
+.alert { padding: 0.4em 0.8em !important; margin-top: 0.4em !important; font-size: 0.85em; }
+</style>
+
 # 変わらず必要な能力
 
-<p style="text-align: center; color: #666; margin-bottom: 1rem;">（AIがいても消えない）</p>
+<p style="text-align: center; color: #666; margin-bottom: 0.3rem; font-size: 0.85em;">（AIがいても消えない）</p>
 
 <div class="key-points">
   <div class="key-point">
@@ -142,6 +170,12 @@
 </div>
 
 ---
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.key-points { gap: 0.3em !important; }
+.key-point { padding: 0.3em 0.5em !important; font-size: 0.85em; }
+</style>
 
 # 今まで以上に必要な能力
 

@@ -907,6 +907,15 @@ h1 { font-size: 1.5em !important; }
 
 <!-- 時間: 1分 -->
 
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.highlight-box { margin: 0.5em 0 !important; padding: 0.5em !important; }
+.highlight-box h2 { font-size: 1.1em !important; }
+.highlight-box p { font-size: 0.9em !important; }
+.checklist { font-size: 0.9em; }
+.checklist li { padding: 0.3em 0 !important; }
+</style>
+
 # 4章のまとめ
 
 <div class="highlight-box">

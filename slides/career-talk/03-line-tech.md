@@ -147,6 +147,13 @@
 
 <!-- 時間: 5分（ワーク込み） -->
 
+<style scoped>
+.highlight-box { margin: 0.3em 0 !important; padding: 0.5em !important; }
+.highlight-box h2 { font-size: 1.1em !important; }
+.two-column { font-size: 0.9em; gap: 1em !important; }
+.alert { padding: 0.4em 0.8em !important; margin-top: 0.5em !important; }
+</style>
+
 # グループワーク②
 
 <div class="highlight-box">
@@ -183,6 +190,13 @@
 ---
 
 <!-- 時間: 2分 -->
+
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.icon-list { gap: 0.3em !important; }
+.icon-list li { padding: 0.3em 0.5em !important; font-size: 0.85em; }
+.icon-list .icon { font-size: 1.2em !important; }
+</style>
 
 # 「事件」は仕様で減らせる
 
@@ -226,6 +240,16 @@
 ---
 
 <!-- 時間: 1分 -->
+
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1.1em !important; }
+.strategy-grid { gap: 0.5em !important; }
+.strategy-item { padding: 0.5em !important; }
+.strategy-item h3 { font-size: 1em !important; margin-bottom: 0.2em !important; }
+.strategy-item p { font-size: 0.85em !important; }
+</style>
 
 # ここからAIで進化させる
 

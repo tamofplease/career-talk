@@ -3,7 +3,7 @@ marp: true
 theme: custom-slide
 size: 16:9
 paginate: true
-header: 'ITエンジニアという仕事'
+header: 'OBが語る、ITエンジニアのリアル'
 footer: '進路講演 | 2025'
 style: |
   section {

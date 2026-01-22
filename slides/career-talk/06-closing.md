@@ -19,6 +19,12 @@
 
 <!-- 時間: 2分 -->
 
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.key-points { gap: 0.25em !important; }
+.key-point { padding: 0.3em 0.5em !important; font-size: 0.85em; }
+</style>
+
 # 振り返り
 
 <div class="key-points">
