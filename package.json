@@ -5,9 +5,9 @@
   "scripts": {
     "merge": "bash scripts/build.sh",
     "preview:career-talk": "bash scripts/build.sh slides/career-talk .tmp/career-talk.md && marp --theme ./theme.css -p .tmp/career-talk.md",
-    "build:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --html -o dist/ dist/career-talk.md",
-    "pdf:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pdf -o dist/ dist/career-talk.md",
-    "pptx:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pptx -o dist/ dist/career-talk.md",
+    "build:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --html -o dist/career-talk.html dist/career-talk.md",
+    "pdf:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pdf -o dist/career-talk.pdf dist/career-talk.md",
+    "pptx:career-talk": "bash scripts/build.sh slides/career-talk dist/career-talk.md && marp --theme ./theme.css --pptx -o dist/career-talk.pptx dist/career-talk.md",
     "preview": "marp --theme ./theme.css -p",
     "build": "marp --theme ./theme.css --html -o dist/",
     "pdf": "marp --theme ./theme.css --pdf -o dist/",
