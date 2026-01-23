@@ -123,6 +123,146 @@
 
 ---
 
+<!-- ========== C言語に必要な知識の導入 ========== -->
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1em !important; }
+.strategy-grid { gap: 0.4em !important; }
+.strategy-item { padding: 0.4em !important; }
+.strategy-item h3 { font-size: 0.95em !important; margin-bottom: 0.1em !important; }
+.strategy-item p { font-size: 0.8em !important; }
+.alert { padding: 0.4em 0.8em !important; margin-top: 0.3em !important; font-size: 0.9em; }
+</style>
+
+# C言語の授業で必要な知識
+
+<div class="highlight-box">
+  <h2>授業で出てくる基本概念</h2>
+</div>
+
+<div class="strategy-grid">
+  <div class="strategy-item">
+    <h3>フォルダ構造</h3>
+    <p>ファイルの場所を理解する</p>
+  </div>
+  <div class="strategy-item">
+    <h3>条件分岐</h3>
+    <p>if文で処理を分ける</p>
+  </div>
+  <div class="strategy-item">
+    <h3>配列・変数</h3>
+    <p>データを入れる箱</p>
+  </div>
+  <div class="strategy-item">
+    <h3>ループ</h3>
+    <p>繰り返し処理</p>
+  </div>
+</div>
+
+<div class="alert alert-info">
+  ここからクイズ形式で紹介します！
+</div>
+
+<!--
+- C言語の授業で必要な知識を紹介
+- クイズ形式で進める予告
+-->
+
+---
+
+<!-- ========== フォルダ構造の解説 ========== -->
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1em !important; }
+.two-column { font-size: 0.9em; gap: 1em !important; }
+.two-column h3 { font-size: 1em !important; margin-bottom: 0.3em !important; }
+pre { margin: 0 !important; }
+ul { margin: 0 !important; }
+li { padding: 0.2em 0 !important; }
+</style>
+
+# フォルダ構造とは？
+
+<div class="highlight-box">
+  <h2>パソコンの中身は「階層構造」になっている</h2>
+</div>
+
+<div class="two-column">
+  <div>
+    <h3>イメージ</h3>
+    <pre style="font-size: 0.75em;">
+/（ルート）
+├── home
+│   └── user
+│       ├── documents
+│       └── pictures
+└── applications
+    </pre>
+  </div>
+  <div>
+    <h3>ポイント</h3>
+    <ul>
+      <li><strong>/</strong> から始まる = 一番上</li>
+      <li>フォルダの中にフォルダがある</li>
+      <li>「パス」で場所を表す</li>
+    </ul>
+  </div>
+</div>
+
+<!--
+- フォルダ構造の基本を解説
+- 階層構造のイメージを伝える
+- パスという概念を紹介
+-->
+
+---
+
+<!-- ========== コマンドの紹介 ========== -->
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1em !important; }
+.table-center { display: flex; justify-content: center; }
+.table-center table { font-size: 0.85em; }
+th, td { padding: 0.3em 0.6em !important; }
+.alert { margin-top: 0.5em !important; font-size: 0.9em; }
+</style>
+
+# 基本的なコマンド
+
+<div class="highlight-box">
+  <h2>ターミナルで使うコマンド</h2>
+</div>
+
+<div class="table-center">
+
+| コマンド | 意味 | 例 |
+|:------:|:-----|:---|
+| `cd` | フォルダを移動する | `cd documents` |
+| `ls` | ファイル一覧を見る | `ls` |
+| `pwd` | 今いる場所を表示 | `pwd` |
+| `..` | 1つ上のフォルダ | `cd ..` |
+| `.` | 今いるフォルダ | `./program` |
+
+</div>
+
+<div class="alert alert-info">
+  これらを使ってファイルを操作する
+</div>
+
+<!--
+- 基本的なコマンドを紹介
+- cd, ls, pwd, .., .
+- クイズの前に知識を補強
+-->
+
+---
+
 <!-- ========== クイズ①：フォルダ構造 ========== -->
 
 # C言語クイズ①：フォルダ構造
@@ -213,13 +353,22 @@
 
 <!-- ========== クイズ②：if文 ========== -->
 
+<style scoped>
+h1 { font-size: 1.3em !important; }
+</style>
+
 # C言語クイズ②：if文【何が表示される？】
 
 ```c
 int x = 5;
-if (x > 10)      { printf("A"); }
-else if (x > 3)  { printf("B"); }
-else             { printf("C"); }
+
+if (x > 10) {
+    printf("A");
+} else if (x > 3) {
+    printf("B");
+} else {
+    printf("C");
+}
 ```
 
 <div class="steps">

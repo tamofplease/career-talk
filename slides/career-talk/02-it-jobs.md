@@ -6,7 +6,7 @@
 
 # 2
 
-## OBが語る、ITエンジニアのリアル
+## ITの仕事
 ### エンジニアにも種類がある
 
 <!--
@@ -57,19 +57,39 @@
 
 ---
 
-# グループワーク
+# まず1人で考えてみよう
 
-**ルール**
-- グループで話し合い（3分）
-- 最低3つの役割を考える
-- 「なぜ必要か」も考えてみよう
+<div class="stat-highlight">
+  <div class="stat-value" style="font-size: 1.5em;">3分間</div>
+  <div class="stat-label">思いついた役割をメモしてみて</div>
+</div>
 
 <div class="alert alert-info">
-  思いついたものを自由に出してみよう！
+  正解はないので、自由に考えてOK！
 </div>
 
 <!--
-- ルール説明
+- 個人で考える時間を設ける
+- 1分間、静かに考えてもらう
+- メモを取ってもらう
+- グループワークの前に自分の考えを持つ
+-->
+
+---
+
+# 周りの人と話し合ってみよう
+
+<div class="stat-highlight">
+  <div class="stat-value" style="font-size: 1.5em;">3分間</div>
+  <div class="stat-label">最低5つの役割を出してみよう</div>
+</div>
+
+<div class="alert alert-info">
+  「なぜ必要か」も一緒に考えてみて！
+</div>
+
+<!--
+- 周りの人と話し合う時間
 - 3分間で話し合い
 - 正解はない、自由に考えてOK
 - 発表してもらう予定
@@ -98,21 +118,13 @@
 
 # プロダクトマネージャー（PM）
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>何を作るか決める人</h3>
-    </div>
-    <ul>
-      <li>「既読機能、つける？つけない？」</li>
-      <li>「スタンプは有料にする？無料にする？」</li>
-      <li>「次はどの機能を優先して作る？」</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/pm.jpg" alt="プロダクトマネージャー">
-  </div>
+<div class="highlight-box">
+  <h2>🎯 何を作るか決める人</h2>
 </div>
+
+- 「既読機能、つける？つけない？」
+- 「スタンプは有料にする？無料にする？」
+- 「次はどの機能を優先して作る？」
 
 <div class="alert alert-info">
   チームの方向性を決める、いわば「船長」のような存在
@@ -129,21 +141,13 @@
 
 # デザイナー
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>どう見せるか決める人</h3>
-    </div>
-    <ul>
-      <li>トーク画面のレイアウトは？</li>
-      <li>吹き出しの色や形は？</li>
-      <li>スタンプの大きさは？</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/designer.jpg" alt="デザイナー">
-  </div>
+<div class="highlight-box">
+  <h2>🎨 どう見せるか決める人</h2>
 </div>
+
+- トーク画面のレイアウトは？
+- 吹き出しの色や形は？
+- スタンプの大きさは？
 
 <div class="alert alert-info">
   「見た目」だけじゃなく「使いやすさ」も考える
@@ -159,20 +163,12 @@
 
 <h1 class="title-sm">フロントエンド / モバイルエンジニア</h1>
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>画面を作る人</h3>
-    </div>
-    <ul>
-      <li><strong>モバイルエンジニア</strong>: スマホアプリの画面を作る</li>
-      <li><strong>フロントエンドエンジニア</strong>: Webブラウザの画面を作る</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/mobile.jpg" alt="モバイルエンジニア">
-  </div>
+<div class="highlight-box">
+  <h2>📱 画面を作る人</h2>
 </div>
+
+- **モバイルエンジニア**: スマホアプリの画面を作る
+- **フロントエンドエンジニア**: Webブラウザの画面を作る
 
 <div class="alert alert-info">
   みんながLINEを開いて見ている画面、この人たちが作ってる
@@ -189,21 +185,13 @@
 
 # バックエンドエンジニア
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>裏側の処理を作る人</h3>
-    </div>
-    <ul>
-      <li>送信ボタンを押したらメッセージが届く</li>
-      <li>相手が読んだら「既読」がつく</li>
-      <li>過去のトーク履歴を保存する</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/backend.jpg" alt="バックエンドエンジニア">
-  </div>
+<div class="highlight-box">
+  <h2>⚙️ 裏側の処理を作る人</h2>
 </div>
+
+- 送信ボタンを押したらメッセージが届く
+- 相手が読んだら「既読」がつく
+- 過去のトーク履歴を保存する
 
 <div class="alert alert-info">
   目に見えないけど、一番重要な部分かもしれない
@@ -220,21 +208,13 @@
 
 # インフラエンジニア
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>土台を作る人</h3>
-    </div>
-    <ul>
-      <li>LINEは日本だけで何千万人も使っている</li>
-      <li>全員が同時にメッセージを送っても落ちない</li>
-      <li>データを安全に保存する</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/infra.jpg" alt="インフラエンジニア">
-  </div>
+<div class="highlight-box">
+  <h2>🏗️ 土台を作る人</h2>
 </div>
+
+- LINEは日本だけで何千万人も使っている
+- 全員が同時にメッセージを送っても落ちない
+- データを安全に保存する
 
 <div class="alert alert-info">
   サーバーというコンピュータを管理して、サービスの土台を支える
@@ -251,21 +231,13 @@
 
 # QAエンジニア
 
-<div class="split-image">
-  <div class="content">
-    <div class="highlight-box">
-      <h3>品質を守る人</h3>
-    </div>
-    <ul>
-      <li>メッセージが届かない...</li>
-      <li>既読がつかない...</li>
-      <li>アプリが突然落ちる...</li>
-    </ul>
-  </div>
-  <div class="image">
-    <img src="images/qa.jpg" alt="QAエンジニア">
-  </div>
+<div class="highlight-box">
+  <h2>🔍 品質を守る人</h2>
 </div>
+
+- メッセージが届かない...
+- 既読がつかない...
+- アプリが突然落ちる...
 
 <div class="alert alert-info">
   こういうバグを見つけて報告する。みんなが安心して使えるのはこの人たちのおかげ

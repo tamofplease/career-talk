@@ -7,8 +7,8 @@
 
 # 3
 
-## メッセンジャーアプリを設計してみよう
-### Webエンジニア体験 〜そしてAIで進化させるには？〜
+## アプリを設計してみよう
+### Webエンジニア体験
 
 <!--
 - 章の導入
@@ -53,15 +53,15 @@
 # 質問です
 
 <div class="highlight-box">
-  <h2>LINEがもし突然消えたら<br>困ることは何？</h2>
-  <p>30秒考えてみてください</p>
+  <h2>LINEのようなメッセンジャーアプリを<br>0から作るとしたら？</h2>
+  <p>どんな機能が必要でしょうか？</p>
 </div>
 
 <!--
-- 家族に連絡できない
-- 友達とのやりとりが消える
-- グループの情報が失われる
-- 写真や思い出がなくなる
+- メッセージ送受信
+- 友達追加
+- ログイン
+- 通知
 -->
 
 ---
@@ -92,19 +92,41 @@
 
 ---
 
-<!-- 時間: 3分 -->
+<!-- 時間: 5分 -->
 
-# 発表タイム
+# 4人組を作ろう
 
-<div class="stat-highlight">
-  <div class="stat-value" style="font-size: 2.5em;">どんな機能を選んだ？</div>
-  <div class="stat-label">理由も教えてください</div>
+<div class="highlight-box">
+  <h2>周りの人と4人組になってください</h2>
+</div>
+
+<div class="alert alert-info">
+  前後左右の人と組んでOK！
 </div>
 
 <!--
-- いくつかのグループに発表してもらう
-- どんな機能を選んだか
-- なぜそれが「最低限」なのか
+- 4人組を作ってもらう
+- 前後左右で組む
+-->
+
+---
+
+# グループで共有しよう
+
+<div class="stat-highlight">
+  <div class="stat-value" style="font-size: 1.5em;">3分間</div>
+  <div class="stat-label">選んだ機能と理由を共有してみよう</div>
+</div>
+
+- 自分が選んだ3つの機能を発表
+- 他の人と同じ？違う？
+- 「なるほど」と思ったら取り入れてOK
+
+<!--
+- グループ内で共有
+- 自分の選んだ機能を発表
+- 他の人の意見も聞く
+- 違いを確認する
 -->
 
 ---
@@ -147,34 +169,11 @@
 
 <!-- 時間: 5分（ワーク込み） -->
 
-<style scoped>
-.highlight-box { margin: 0.3em 0 !important; padding: 0.5em !important; }
-.highlight-box h2 { font-size: 1.1em !important; }
-.two-column { font-size: 0.9em; gap: 1em !important; }
-.alert { padding: 0.4em 0.8em !important; margin-top: 0.5em !important; }
-</style>
-
 # グループワーク②
 
 <div class="highlight-box">
-  <h2>「最悪の事件」を1つ考えてください</h2>
+  <h2>「最悪の事件」を考えてみてください</h2>
   <p>このアプリで起きそうな問題は？</p>
-</div>
-
-<div class="two-column">
-<div>
-
-**例えば...**
-- なりすまし
-- 詐欺リンクばらまき
-
-</div>
-<div>
-
-- アカウント乗っ取り
-- いじめ・嫌がらせ
-
-</div>
 </div>
 
 <div class="alert alert-info">
@@ -185,6 +184,34 @@
 - アプリを作る＝便利にするだけじゃない
 - 守る設計も必要
 - どんな事件が起きうるか考える
+-->
+
+---
+
+# 例えば...
+
+<div class="strategy-grid">
+  <div class="strategy-item">
+    <h3>なりすまし</h3>
+    <p>他人のふりをする</p>
+  </div>
+  <div class="strategy-item">
+    <h3>詐欺リンク</h3>
+    <p>危険なURLをばらまく</p>
+  </div>
+  <div class="strategy-item">
+    <h3>乗っ取り</h3>
+    <p>アカウントを奪う</p>
+  </div>
+  <div class="strategy-item">
+    <h3>いじめ</h3>
+    <p>嫌がらせメッセージ</p>
+  </div>
+</div>
+
+<!--
+- 例を見せる
+- みんなが考えた事件と比較
 -->
 
 ---
@@ -288,7 +315,7 @@ h1 { font-size: 1.4em !important; }
 # グループワーク③
 
 <div class="highlight-box">
-  <h2>AIを使った新機能を1つ提案してください</h2>
+  <h2>AIを使った新機能を提案してください</h2>
 </div>
 
 <div class="two-column">
@@ -330,33 +357,6 @@ h1 { font-size: 1.4em !important; }
 - いくつかのグループに発表してもらう
 - どんなAI機能か
 - どんなリスクがあるか
--->
-
----
-
-<!-- 時間: 1分 -->
-
-# 次：ボタンを押したら何が起きる？
-
-<div class="flow-chart">
-  <div class="flow-item">送信ボタン</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">通信</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">サーバー処理</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-item">相手に届く</div>
-</div>
-
-<div class="highlight-box">
-  <h2>実はURL入力してEnterを押すのと<br>同じ仕組みが動いている！</h2>
-</div>
-
-<!--
-- 送信ボタン、検索ボタン、ログインボタン
-- 画面の裏側で「通信」「サーバ処理」「DB」が動く
-- URL Enter と同じ仕組み！
-- 次の技術セクションへの接続
 -->
 
 ---
