@@ -263,6 +263,23 @@ th, td { padding: 0.3em 0.6em !important; }
 
 ---
 
+# これが使えると...
+
+<div class="highlight-box">
+  <h2>「黒い画面」が操作できるようになる！</h2>
+</div>
+
+<div style="text-align: center;">
+  <img src="images/terminal.webp" alt="ターミナル" style="max-height: 350px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+</div>
+
+<!--
+- コマンドを使えると黒い画面が操作できる
+- ターミナルの実際の見た目を見せる
+-->
+
+---
+
 <!-- ========== クイズ①：フォルダ構造 ========== -->
 
 # C言語クイズ①：フォルダ構造
@@ -347,6 +364,20 @@ th, td { padding: 0.3em 0.6em !important; }
 - .. は親ディレクトリ（1つ上）
 - . は現在のディレクトリ
 - ファイル操作の基本！
+-->
+
+---
+
+# 次はC言語の問題
+
+<div class="stat-highlight">
+  <div class="stat-value" style="font-size: 1.5em;">コードを読んでみよう</div>
+  <div class="stat-label">何が起きるか考えてみて</div>
+</div>
+
+<!--
+- C言語の問題への導入
+- コードを読む練習
 -->
 
 ---
@@ -656,6 +687,13 @@ printf("%d", count);
 
 ---
 
+<style scoped>
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1.1em !important; }
+pre { font-size: 0.85em !important; margin: 0.3em 0 !important; }
+.alert { padding: 0.3em 0.6em !important; margin-top: 0.3em !important; font-size: 0.9em; }
+</style>
+
 # クイズ⑤：回答
 
 <div class="highlight-box">
@@ -668,13 +706,9 @@ for (int i = 0; i <= 5; i++) {
 }
 ```
 
-| ループ | i の値 | 条件 `i <= 5` |
-|:------:|:------:|:-------------:|
-| 1回目 | 0 | ✅ 真 |
-| 2回目 | 1 | ✅ 真 |
-| ... | ... | ... |
-| 6回目 | 5 | ✅ 真 |
-| 終了 | 6 | ❌ 偽 |
+<div class="alert alert-info">
+  i = 0, 1, 2, 3, 4, 5 → <strong>6回</strong>ループして終了
+</div>
 
 <!--
 - 正解はB: 6回
