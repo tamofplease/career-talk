@@ -259,44 +259,27 @@ h1 { font-size: 1.4em !important; }
 
 <!-- 時間: 1分 -->
 
-<style scoped>
-h1 { font-size: 1.4em !important; }
-.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
-.highlight-box h2 { font-size: 1.1em !important; }
-.strategy-grid { gap: 0.5em !important; }
-.strategy-item { padding: 0.5em !important; }
-.strategy-item h3 { font-size: 1em !important; margin-bottom: 0.2em !important; }
-.strategy-item p { font-size: 0.85em !important; }
-</style>
-
-# ここからAIで進化させる
+# AIでできることを考えてみよう
 
 <div class="highlight-box">
-  <h2>AIでできること</h2>
+  <h2>LINEにAIを組み込むとしたら？</h2>
+  <p>どんな「困りごと」を解決できる？</p>
 </div>
 
-<div class="strategy-grid">
-  <div class="strategy-item">
-    <h3>便利に</h3>
-    <p>返信提案・要約・翻訳</p>
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">💡</div>
+    <div>AIは「困りごとを解決する道具」</div>
   </div>
-  <div class="strategy-item">
-    <h3>安全に</h3>
-    <p>詐欺検知・不正検出</p>
-  </div>
-  <div class="strategy-item">
-    <h3>効率化</h3>
-    <p>タスク抽出・リマインド</p>
-  </div>
-  <div class="strategy-item">
-    <h3>アクセシビリティ</h3>
-    <p>音声入力・読み上げ</p>
+  <div class="key-point">
+    <div class="key-point-number">⚠️</div>
+    <div>便利さだけでなく「リスク」も考えよう</div>
   </div>
 </div>
 
 <!--
-- "AIを入れればすごい"じゃなく
-- 困りごとを解決できるAIが強い
+- AIを入れてできることを考えてもらう導入
+- 困りごとを解決する視点を持ってもらう
 -->
 
 ---
@@ -320,7 +303,7 @@ h1 { font-size: 1.4em !important; }
 </div>
 <div>
 
-**時間: 3分**
+**時間: 5分**
 
 理由も一緒に考えてください
 
@@ -348,6 +331,51 @@ h1 { font-size: 1.4em !important; }
 - いくつかのグループに発表してもらう
 - どんなAI機能か
 - どんなリスクがあるか
+-->
+
+---
+
+<!-- 時間: 1分 -->
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1em !important; }
+.strategy-grid { gap: 0.4em !important; }
+.strategy-item { padding: 0.4em !important; }
+.strategy-item h3 { font-size: 0.95em !important; margin-bottom: 0.1em !important; }
+.strategy-item p { font-size: 0.8em !important; }
+</style>
+
+# 例えばこんな機能はどう？
+
+<div class="highlight-box">
+  <h2>実際に考えられるAI機能の例</h2>
+</div>
+
+<div class="strategy-grid">
+  <div class="strategy-item">
+    <h3>🤖 返信提案</h3>
+    <p>文脈に合った返信を提案</p>
+  </div>
+  <div class="strategy-item">
+    <h3>🛡️ 詐欺検知</h3>
+    <p>怪しいメッセージを警告</p>
+  </div>
+  <div class="strategy-item">
+    <h3>📝 要約・翻訳</h3>
+    <p>長文を要約、外国語を翻訳</p>
+  </div>
+  <div class="strategy-item">
+    <h3>🔔 タスク抽出</h3>
+    <p>「〇〇して」を自動でリマインド</p>
+  </div>
+</div>
+
+<!--
+- AI機能の具体例を紹介
+- 返信提案、詐欺検知、要約・翻訳、タスク抽出
+- みんなの発表と比較してみよう
 -->
 
 ---
