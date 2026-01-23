@@ -53,7 +53,6 @@
   </div>
 </div>
 
-<p class="example-note">例：フォーム、ログイン周り、データの整形…</p>
 
 ---
 

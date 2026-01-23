@@ -34,4 +34,10 @@ for file in $(ls "$SLIDE_DIR"/[0-9]*.md 2>/dev/null | sort); do
   fi
 done
 
+# imagesフォルダがあればコピー
+if [ -d "$SLIDE_DIR/images" ]; then
+  cp -r "$SLIDE_DIR/images" "$(dirname "$OUTPUT_FILE")/"
+  echo "Copied: images folder"
+fi
+
 echo "Generated: $OUTPUT_FILE"

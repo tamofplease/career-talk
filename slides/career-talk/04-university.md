@@ -270,7 +270,7 @@ th, td { padding: 0.3em 0.6em !important; }
 </div>
 
 <div style="text-align: center;">
-  <img src="images/terminal.webp" alt="ターミナル" style="max-height: 350px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <img src="images/terminal.png" alt="ターミナル" style="max-height: 350px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 </div>
 
 <!--
@@ -492,15 +492,15 @@ int arr[5] = {10, 20, 30, 40, 50};
 <div class="steps">
   <div class="step">
     <div class="step-number">A</div>
-    <div class="step-content">arr[3] → 結果: 40</div>
+    <div class="step-content">arr[3]</div>
   </div>
   <div class="step">
     <div class="step-number">B</div>
-    <div class="step-content">arr[2] → 結果: 30</div>
+    <div class="step-content">arr[2]</div>
   </div>
   <div class="step">
     <div class="step-number">C</div>
-    <div class="step-content">arr[1] → 結果: 20</div>
+    <div class="step-content">arr[1]</div>
   </div>
 </div>
 
@@ -649,6 +649,15 @@ z = x / y  # → 3.5</code></pre>
 ---
 
 <!-- ========== クイズ⑤：ループの回数 ========== -->
+
+<style scoped>
+h1 { font-size: 1.3em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.3em !important; }
+.highlight-box h2 { font-size: 1em !important; }
+pre { font-size: 0.85em !important; margin: 0.3em 0 !important; }
+.steps { display: flex; justify-content: center; gap: 1.5em; margin-top: 0.5em; }
+.step { flex: 1; max-width: 150px; }
+</style>
 
 # C言語クイズ⑤：ループの回数
 
@@ -987,8 +996,8 @@ h1 { font-size: 1.4em !important; }
 .highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
 .highlight-box h2 { font-size: 1.3em !important; }
 .highlight-box p { font-size: 0.85em !important; }
-.key-points { gap: 0.3em !important; }
-.key-point { font-size: 0.85em !important; padding: 0.3em 0.5em !important; }
+.key-points { gap: 0.25em !important; }
+.key-point { font-size: 0.8em !important; padding: 0.25em 0.5em !important; }
 </style>
 
 # 学外での活動：インターン
@@ -1001,7 +1010,7 @@ h1 { font-size: 1.4em !important; }
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">1</div>
-    <div><strong>実務のノウハウが得られる</strong>: 個人開発だけでは学べないチーム開発・コードレビュー</div>
+    <div><strong>実務のノウハウが得られる</strong>: チーム開発・コードレビュー</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">2</div>
@@ -1011,6 +1020,10 @@ h1 { font-size: 1.4em !important; }
     <div class="key-point-number">3</div>
     <div><strong>就活で強みになる</strong>: 実務経験は面接で語れる最強の武器</div>
   </div>
+  <div class="key-point">
+    <div class="key-point-number">4</div>
+    <div><strong>どこにいても仕事ができる</strong>: リモートワークで場所を選ばない</div>
+  </div>
 </div>
 
 <!--
@@ -1019,6 +1032,7 @@ h1 { font-size: 1.4em !important; }
 - メリット1: 実務のノウハウ（チーム開発、コードレビュー）
 - メリット2: 勉強しながらお金がもらえる
 - メリット3: 就活で強みになる（実務経験は面接で語れる）
+- メリット4: どこにいても仕事ができる（リモートワーク）
 -->
 
 ---

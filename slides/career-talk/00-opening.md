@@ -5,7 +5,7 @@
 <!-- _class: title -->
 <!-- _paginate: false -->
 
-# OBが語る、ITエンジニアのリアル
+# OBが語る<br>ITエンジニアのリアル
 
 **三輪 智樹**
 LINEヤフー株式会社

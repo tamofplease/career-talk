@@ -163,7 +163,7 @@
 # グループワーク②
 
 <div class="highlight-box">
-  <h2>「最悪の事件」を考えてみてください</h2>
+  <h2>「最悪の事象」を考えてみてください</h2>
   <p>このアプリで起きそうな問題は？</p>
 </div>
 
@@ -195,8 +195,8 @@
     <p>アカウントを奪う</p>
   </div>
   <div class="strategy-item">
-    <h3>いじめ</h3>
-    <p>嫌がらせメッセージ</p>
+    <h3>見落とし</h3>
+    <p>重要なメッセージに気づかない</p>
   </div>
 </div>
 
@@ -211,12 +211,12 @@
 
 <style scoped>
 h1 { font-size: 1.4em !important; }
-.icon-list { gap: 0.3em !important; }
-.icon-list li { padding: 0.3em 0.5em !important; font-size: 0.85em; }
-.icon-list .icon { font-size: 1.2em !important; }
+.icon-list { gap: 0.2em !important; }
+.icon-list li { padding: 0.2em 0.5em !important; font-size: 0.8em; }
+.icon-list .icon { font-size: 1.1em !important; }
 </style>
 
-# 「事件」は仕様で減らせる
+# こういった事象は仕様で減らせる
 
 <div class="icon-list">
   <li>
@@ -227,10 +227,10 @@ h1 { font-size: 1.4em !important; }
     </div>
   </li>
   <li>
-    <div class="icon">🚫</div>
+    <div class="icon">🔔</div>
     <div>
-      <strong>ブロック/通報機能</strong><br>
-      嫌がらせ・いじめ対策
+      <strong>通知機能</strong><br>
+      重要なメッセージの見落とし防止
     </div>
   </li>
   <li>
@@ -251,7 +251,7 @@ h1 { font-size: 1.4em !important; }
 
 <!--
 - 技術よりも「仕組み（ルール）」が効く
-- 認証、ブロック、送信制限、URL警告
+- 認証、通知、送信制限、URL警告
 - エンジニアはこういう設計も考える
 -->
 
