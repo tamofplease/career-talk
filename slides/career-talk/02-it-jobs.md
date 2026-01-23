@@ -116,18 +116,36 @@
 
 ---
 
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.4em !important; }
+ul { font-size: 0.9em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
+
 # プロダクトマネージャー（PM）
 
-<div class="highlight-box">
-  <h2>🎯 何を作るか決める人</h2>
+<div class="two-column">
+<div>
+
+<img src="images/pm.jpg" alt="PM">
+
 </div>
+<div>
+
+**何を作るか決める人**
 
 - 「既読機能、つける？つけない？」
-- 「スタンプは有料にする？無料にする？」
-- 「次はどの機能を優先して作る？」
+- 「スタンプは有料？無料？」
+- 「次はどの機能を優先？」
+
+</div>
+</div>
 
 <div class="alert alert-info">
-  チームの方向性を決める、いわば「船長」のような存在
+  チームの方向性を決める「船長」のような存在
 </div>
 
 <!--
@@ -139,15 +157,33 @@
 
 ---
 
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.4em !important; }
+ul { font-size: 0.9em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
+
 # デザイナー
 
-<div class="highlight-box">
-  <h2>🎨 どう見せるか決める人</h2>
+<div class="two-column">
+<div>
+
+<img src="images/designer.jpg" alt="デザイナー">
+
 </div>
+<div>
+
+**どう見せるか決める人**
 
 - トーク画面のレイアウトは？
 - 吹き出しの色や形は？
 - スタンプの大きさは？
+
+</div>
+</div>
 
 <div class="alert alert-info">
   「見た目」だけじゃなく「使いやすさ」も考える
@@ -161,14 +197,32 @@
 
 ---
 
-<h1 class="title-sm">フロントエンド / モバイルエンジニア</h1>
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.2em !important; }
+ul { font-size: 0.85em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
 
-<div class="highlight-box">
-  <h2>📱 画面を作る人</h2>
+# フロントエンド / モバイルエンジニア
+
+<div class="two-column">
+<div>
+
+<img src="images/mobile.jpg" alt="モバイルエンジニア">
+
 </div>
+<div>
 
-- **モバイルエンジニア**: スマホアプリの画面を作る
-- **フロントエンドエンジニア**: Webブラウザの画面を作る
+**画面を作る人**
+
+- **モバイル**: スマホアプリの画面
+- **フロントエンド**: Webブラウザの画面
+
+</div>
+</div>
 
 <div class="alert alert-info">
   みんながLINEを開いて見ている画面、この人たちが作ってる
@@ -183,15 +237,33 @@
 
 ---
 
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.4em !important; }
+ul { font-size: 0.85em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
+
 # バックエンドエンジニア
 
-<div class="highlight-box">
-  <h2>⚙️ 裏側の処理を作る人</h2>
-</div>
+<div class="two-column">
+<div>
 
-- 送信ボタンを押したらメッセージが届く
+<img src="images/backend.jpg" alt="バックエンドエンジニア">
+
+</div>
+<div>
+
+**裏側の処理を作る人**
+
+- 送信ボタン→メッセージが届く
 - 相手が読んだら「既読」がつく
 - 過去のトーク履歴を保存する
+
+</div>
+</div>
 
 <div class="alert alert-info">
   目に見えないけど、一番重要な部分かもしれない
@@ -206,18 +278,35 @@
 
 ---
 
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.4em !important; }
+ul { font-size: 0.85em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
+
 # インフラエンジニア
 
-<div class="highlight-box">
-  <h2>🏗️ 土台を作る人</h2>
-</div>
+<div class="two-column">
+<div>
 
-- LINEは日本だけで何千万人も使っている
-- 全員が同時にメッセージを送っても落ちない
+<img src="images/infra.jpg" alt="インフラエンジニア">
+
+</div>
+<div>
+
+**土台を作る人**
+
+- 何千万人が同時に使っても落ちない
 - データを安全に保存する
 
+</div>
+</div>
+
 <div class="alert alert-info">
-  サーバーというコンピュータを管理して、サービスの土台を支える
+  サーバーを管理して、サービスの土台を支える
 </div>
 
 <!--
@@ -229,18 +318,36 @@
 
 ---
 
+<style scoped>
+.two-column { align-items: center; }
+.two-column > div:first-child { display: flex; justify-content: center; align-items: center; }
+.two-column img { height: 270px; border-radius: 8px; }
+h1 { font-size: 1.4em !important; }
+ul { font-size: 0.85em; margin: 0.3em 0; }
+.alert { font-size: 0.85em; padding: 0.3em 0.6em !important; }
+</style>
+
 # QAエンジニア
 
-<div class="highlight-box">
-  <h2>🔍 品質を守る人</h2>
+<div class="two-column">
+<div>
+
+<img src="images/qa.jpg" alt="QAエンジニア">
+
 </div>
+<div>
+
+**品質を守る人**
 
 - メッセージが届かない...
 - 既読がつかない...
 - アプリが突然落ちる...
 
+</div>
+</div>
+
 <div class="alert alert-info">
-  こういうバグを見つけて報告する。みんなが安心して使えるのはこの人たちのおかげ
+  バグを見つけて報告する。安心して使えるのはこの人たちのおかげ
 </div>
 
 <!--

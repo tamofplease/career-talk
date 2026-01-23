@@ -1109,7 +1109,7 @@ h1 { font-size: 1.4em !important; }
 .highlight-box { margin: 0.4em 0 !important; padding: 0.4em 0.6em !important; }
 .highlight-box h2 { font-size: 1.1em !important; }
 .checklist { font-size: 0.85em; }
-.checklist li { padding: 0.25em 0 !important; }
+.checklist li { padding: 0.5em 0 !important; }
 </style>
 
 # 4章のまとめ

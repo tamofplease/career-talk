@@ -176,8 +176,8 @@ p { margin-bottom: 0.3rem !important; }
 
 <style scoped>
 h1 { font-size: 1.3em !important; }
-.key-points { gap: 0.3em !important; }
-.key-point { padding: 0.3em 0.5em !important; font-size: 0.85em; }
+.key-points { gap: 0.25em !important; }
+.key-point { padding: 0.25em 0.5em !important; font-size: 0.8em; }
 </style>
 
 # 今まで以上に必要な能力
@@ -185,19 +185,19 @@ h1 { font-size: 1.3em !important; }
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">🤖</div>
-    <div><strong>AIを使いこなす力</strong><br><small>指示 → 検証 → 修正</small></div>
+    <div><strong>AIを使いこなす力</strong><br><small>指示 → 検証 → 修正のサイクルを回す</small></div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">🧪</div>
-    <div><strong>品質保証</strong><br><small>テスト、監視、再現性</small></div>
+    <div class="key-point-number">📝</div>
+    <div><strong>AIに情報を伝える力</strong><br><small>何をどう伝えれば望む結果が得られるか（言語化・文脈の共有）</small></div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">🔐</div>
-    <div><strong>セキュリティ意識</strong></div>
+    <div class="key-point-number">👁️</div>
+    <div><strong>AIの出力を見極める判断力</strong><br><small>出てきたコードや回答を鵜呑みにしない</small></div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">🌐</div>
-    <div><strong>システム全体を見る視点</strong></div>
+    <div class="key-point-number">🚀</div>
+    <div><strong>AI技術へのキャッチアップ力</strong><br><small>新しいツールを学び、どこに活用できるか考える</small></div>
   </div>
 </div>
 
@@ -235,6 +235,29 @@ h1 { font-size: 1.4em !important; }
 
 <div class="alert alert-success">
   自分で文字を打つのではなく<strong>AIへの指示だけ</strong>で作成しました
+</div>
+
+---
+
+<style scoped>
+img {
+  display: block !important;
+  margin: 0 auto !important;
+  height: 350px !important;
+  width: auto !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+</style>
+
+# 実際のプロジェクト画面
+
+<div style="text-align: center;">
+  <img src="images/project.png" alt="GitHubプロジェクト画面">
+</div>
+
+<div class="alert alert-info" style="text-align: center; margin-top: 0.5em;">
+  このファイル全部、<strong>AIとの会話だけ</strong>で作りました
 </div>
 
 ---
