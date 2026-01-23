@@ -262,6 +262,23 @@ img {
 
 ---
 
+<style scoped>
+img { display: block; margin: 0 auto; height: 280px; }
+</style>
+
+# 興味がある人はぜひ
+
+<div style="text-align: center;">
+  <img src="images/qr-github.png" alt="GitHub QRコード">
+  <p style="margin-top: 0.5em; font-size: 0.9em;">https://github.com/tamofplease/career-talk</p>
+</div>
+
+<div class="alert alert-info" style="text-align: center;">
+  スライドのソースコードを公開しています
+</div>
+
+---
+
 <!-- _class: dark -->
 
 # 締めの一言
