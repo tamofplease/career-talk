@@ -148,23 +148,23 @@ p { margin-bottom: 0.3rem !important; }
 <div class="key-points">
   <div class="key-point">
     <div class="key-point-number">🎯</div>
-    <div><strong>問題設定</strong>：何を作るべき？</div>
+    <div><strong>問題設定</strong>：そもそも何を作るべき？何が本当の課題？</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">🏗️</div>
-    <div><strong>設計</strong>：どう分ける？どう続ける？</div>
+    <div><strong>設計</strong>：LINEみたいなアプリ、AIに「作って」で完成する？</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">🐛</div>
-    <div><strong>デバッグ</strong>：なぜ壊れた？</div>
+    <div><strong>デバッグ</strong>：なぜ動かない？原因を突き止める力</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">✅</div>
-    <div><strong>レビュー</strong>：正しい？安全？</div>
+    <div><strong>レビュー</strong>：このコードは正しい？危険な穴はない？</div>
   </div>
   <div class="key-point">
     <div class="key-point-number">💬</div>
-    <div><strong>説明</strong>：なぜその判断？</div>
+    <div><strong>説明</strong>：なぜこう作ったのか、チームに伝える力</div>
   </div>
 </div>
 
@@ -199,6 +199,42 @@ h1 { font-size: 1.3em !important; }
     <div class="key-point-number">🌐</div>
     <div><strong>システム全体を見る視点</strong></div>
   </div>
+</div>
+
+---
+
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1.1em !important; }
+.key-points { gap: 0.3em !important; }
+.key-point { padding: 0.3em 0.5em !important; font-size: 0.9em; }
+.alert { padding: 0.4em 0.8em !important; margin-top: 0.5em !important; font-size: 0.9em; }
+</style>
+
+# 実は...このスライドもAIで作りました
+
+<div class="highlight-box">
+  <h2>パワーポイントは使っていません</h2>
+</div>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>プロジェクトを作成させる</strong>：「スライド生成の仕組みを作って」</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>書きたい内容を伝える</strong>：「〇〇について説明するスライドを作って」</div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>出力→修正の繰り返し</strong>：「ここをもう少しわかりやすく」</div>
+  </div>
+</div>
+
+<div class="alert alert-success">
+  自分で文字を打つのではなく<strong>AIへの指示だけ</strong>で作成しました
 </div>
 
 ---
