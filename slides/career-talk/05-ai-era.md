@@ -111,21 +111,25 @@ p { margin-bottom: 0.5rem !important; }
 
 <div class="key-points">
   <div class="key-point">
-    <div class="key-point-number">📝</div>
-    <div><strong>定型作業としての実装</strong><br><small>よくある基本機能や定型的な画面・コード</small></div>
-  </div>
-  <div class="key-point">
     <div class="key-point-number">🔍</div>
-    <div><strong>ググってコピペでつなぐ</strong></div>
+    <div><strong>調べてコピペする</strong><br><small>AIに聞けば一発で答えが出る</small></div>
   </div>
   <div class="key-point">
-    <div class="key-point-number">📚</div>
-    <div><strong>構文・APIを暗記する</strong></div>
+    <div class="key-point-number">📖</div>
+    <div><strong>細かいルールを暗記する</strong><br><small>覚えなくてもAIが教えてくれる</small></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">⚡</div>
+    <div><strong>同じ作業を速くこなす</strong><br><small>スピードではAIに勝てない</small></div>
+  </div>
+  <div class="key-point">
+    <div class="key-point-number">📋</div>
+    <div><strong>マニュアル通りに進める</strong><br><small>決まった手順はAIが得意</small></div>
   </div>
 </div>
 
 <div class="alert alert-info">
-  ✅ まとめ：「作業量」や「実装スピード」だけでは差が出にくい
+  ✅ まとめ：「調べる・覚える・繰り返す」はAIに任せる時代
 </div>
 
 ---

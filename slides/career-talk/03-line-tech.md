@@ -94,19 +94,10 @@
 
 <!-- 時間: 5分 -->
 
-# 4人組を作ろう
-
-<div class="highlight-box">
-  <h2>周りの人と4人組になってください</h2>
-</div>
-
-<div class="alert alert-info">
-  前後左右の人と組んでOK！
-</div>
+# 周りの人と相談してみよう
 
 <!--
-- 4人組を作ってもらう
-- 前後左右で組む
+- 周りの人と相談する時間
 -->
 
 ---
@@ -114,7 +105,7 @@
 # グループで共有しよう
 
 <div class="stat-highlight">
-  <div class="stat-value" style="font-size: 1.5em;">3分間</div>
+  <div class="stat-value" style="font-size: 1.5em;">5分間</div>
   <div class="stat-label">選んだ機能と理由を共有してみよう</div>
 </div>
 
