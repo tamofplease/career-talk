@@ -982,43 +982,43 @@ h1 { font-size: 1.5em !important; }
 
 <!-- 時間: 2分 -->
 
-# 就活・進路選択
+<style scoped>
+h1 { font-size: 1.4em !important; }
+.highlight-box { margin: 0.3em 0 !important; padding: 0.4em !important; }
+.highlight-box h2 { font-size: 1.3em !important; }
+.highlight-box p { font-size: 0.85em !important; }
+.key-points { gap: 0.3em !important; }
+.key-point { font-size: 0.85em !important; padding: 0.3em 0.5em !important; }
+</style>
 
-<div class="steps">
-  <div class="step">
-    <div class="step-number">1</div>
-    <div class="step-content">
-      <strong>自己分析</strong>
-      <p>何が好き？何が得意？</p>
-    </div>
+# 学外での活動：インターン
+
+<div class="highlight-box">
+  <h2>長期インターンがおすすめ</h2>
+  <p>授業やAtCoderで基礎を固めたら、実務を経験しよう</p>
+</div>
+
+<div class="key-points">
+  <div class="key-point">
+    <div class="key-point-number">1</div>
+    <div><strong>実務のノウハウが得られる</strong>: 個人開発だけでは学べないチーム開発・コードレビュー</div>
   </div>
-  <div class="step">
-    <div class="step-number">2</div>
-    <div class="step-content">
-      <strong>企業研究</strong>
-      <p>どんな会社がある？</p>
-    </div>
+  <div class="key-point">
+    <div class="key-point-number">2</div>
+    <div><strong>勉強しながらお金がもらえる</strong>: 学びながら収入も得られる</div>
   </div>
-  <div class="step">
-    <div class="step-number">3</div>
-    <div class="step-content">
-      <strong>インターン</strong>
-      <p>実際に体験してみる</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-number">4</div>
-    <div class="step-content">
-      <strong>選考・内定</strong>
-      <p>面接・技術テスト</p>
-    </div>
+  <div class="key-point">
+    <div class="key-point-number">3</div>
+    <div><strong>就活で強みになる</strong>: 実務経験は面接で語れる最強の武器</div>
   </div>
 </div>
 
 <!--
-- 就活・進路選択の流れ
-- 自己分析→企業研究→インターン→選考・内定
-- インターンは特に重要（実際に体験できる）
+- 学外での活動としてインターンを紹介
+- 長期インターンがおすすめ
+- メリット1: 実務のノウハウ（チーム開発、コードレビュー）
+- メリット2: 勉強しながらお金がもらえる
+- メリット3: 就活で強みになる（実務経験は面接で語れる）
 -->
 
 ---
@@ -1092,24 +1092,23 @@ h1 { font-size: 1.5em !important; }
 
 <style scoped>
 h1 { font-size: 1.4em !important; }
-.highlight-box { margin: 0.5em 0 !important; padding: 0.5em !important; }
+.highlight-box { margin: 0.4em 0 !important; padding: 0.4em 0.6em !important; }
 .highlight-box h2 { font-size: 1.1em !important; }
-.highlight-box p { font-size: 0.9em !important; }
-.checklist { font-size: 0.9em; }
-.checklist li { padding: 0.3em 0 !important; }
+.checklist { font-size: 0.85em; }
+.checklist li { padding: 0.25em 0 !important; }
 </style>
 
 # 4章のまとめ
 
 <div class="highlight-box">
-  <h2>大学は「やりたいこと」を見つける場所</h2>
-  <p>授業だけじゃなく、自分から動くことが大事</p>
+  <h2>学ぶ → 試す → 実践する</h2>
 </div>
 
 <ul class="checklist">
-  <li>学業と課外活動のバランスが重要</li>
-  <li>インターンは早めに経験しておくと有利</li>
-  <li>入学前から少しずつ準備できることがある</li>
+  <li><strong>C言語・アルゴリズム</strong>：最初は難しいが一度身につけば一生モノ</li>
+  <li><strong>AtCoder</strong>：論理的思考と実装力を同時に鍛えられる</li>
+  <li><strong>長期インターン</strong>：実務経験は就活の最強の武器</li>
+  <li><strong>今からできること</strong>：プログラミングに触れてPCに慣れる</li>
 </ul>
 
 <!--
